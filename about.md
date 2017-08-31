@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Estudante de Engenharia de Controle e Automação na UFMG
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Estudante de Engenharia na UFMG, já participou de diversas competições de robótica, tanto nacionais quanto mundiais. Apaixonado por programação, vem se especializando no estudo e aplicação de algoritmos.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[italohdc@gmail.com](mailto:italohdc@gmail.com)
