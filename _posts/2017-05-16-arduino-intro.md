@@ -16,7 +16,7 @@ Para carregar o seu código para o Arduino, você primeiro precisa configurar no
 
 Um código para o Arduino necessita de ao menos duas funções básicas:
 
-```c++
+```arduino
 void setup () {
 	// Eu serei executado apenas uma vez
 }
@@ -32,7 +32,7 @@ A função ``void setup()`` será executada apenas uma vez ao início da execuç
 
 A função ``void setup()`` pode ser utilizada para configurar os pinos que serão utilizados durante o código. Para configurar um pino digital como entrada ou saída, utiliza-se a função:
 
-```c++
+```arduino
 pinMode(pino, modo);
   - pino: pino digital a ser configurado
   - modo: INPUT para definir como entrada ou OUTPUT para definir como saída
@@ -42,7 +42,7 @@ ex.: pinMode(13, OUTPUT); // pino 13, saída
 
 A função ``void loop()`` irá executar o código contido nela repetidamente até que a placa seja desligada. Nesta função, você pode, por exemplo, mudar o valor enviado pelo pino configurado no ``void setup()``. Para ligar ou desligar um pino. utiliza-se a função:
 
-```c++
+```arduino
 digitalWrite(pino, estado);
   - pino: pino digital a ser configurado
   - estado: LOW para definir como desligado (0 volts) ou HIGH para definir como ligado (5 volts)
@@ -58,7 +58,7 @@ Por tratar-se de um pino digital, pode-se fazer uma analogia à lógica binária
 
 O Arduino possui um LED acoplado à porta 13. Isso significa que qualquer valor enviado ao pino 13 será repassado para o LED. Para acender este LED, pode-se utilizar o seguinte código:
 
-```c++
+```arduino
 void setup () {
 	pinMode(13, OUTPUT);
 }
@@ -74,14 +74,14 @@ Esse código irá acender o LED ligado ao pino 13 e ele ficará ligado até que 
 
 Para fazer o LED piscar, poderia-se utilizar as seguintes funções em conjunto no ``void loop()``:
 
-```c++
+```arduino
 digitalWrite(13, HIGH);
 digitalWrite(13, LOW);
 ```
 
 O código faria o LED piscar, porém em uma velocidade tão rápida que seria impossível de ser visto ao olho humano. Para que a tarefa acima seja observável, deve-se colocar uma pausa entre as funções. Para isso, será utilizada a função:
 
-```c++
+```arduino
 delay(tempo);
   - tempo: tempo da pausa em milissegundos
 
@@ -90,7 +90,7 @@ ex.: delay(1000); // pausa de 1 segundo
 
 Assim, para fazer o LED piscar, pode-se utilizar o seguinte código:
 
-```c++
+```arduino
 void setup () {
 	pinMode(13, OUTPUT);
 }
