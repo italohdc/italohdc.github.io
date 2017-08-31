@@ -6,6 +6,8 @@ date:   2017-05-16 07:32:02 +0000
 
 O programa que você utiliza para escrever o seu código e carregá-lo para o [Arduino](https://www.arduino.cc/) é chamado de Arduino IDE (Ambiente de Desenvolvimento Integrado Arduino). Nele você consegue facilmente criar um código e enviá-lo para a placa Arduino.
 
+![Arduino IDE]({{ site.baseurl }}/images/screenshot_arduino_ide_blink.png)
+
 [Download Arduino IDE](https://www.arduino.cc/en/Main/Software#download)
 
 Para carregar o seu código para o Arduino, você primeiro precisa configurar no programa a placa que será utilizada. Para isso, primeiramente você deve ir no menu ``Ferramentas (Tools) > Placa (Board)`` e selecionar a sua placa. Conecte a placa ao computador, acesse o menu ``Ferramentas (Tools) > Porta (Port)`` e selecione a porta correspondente à sua placa.
