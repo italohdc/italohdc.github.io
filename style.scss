@@ -31,7 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  /*font-family: $helveticaNeue;*/
+  font-family: $titlePalatino;
   color: $darkerGray;
   font-weight: bold;
 
@@ -65,6 +66,7 @@ h4 {
 }
 
 p {
+  font-family: $helveticaNeue;
   margin: 15px 0;
 }
 
