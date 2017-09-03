@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
+  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -45,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  margin: 1em 0 4px;
   a {
     color: inherit;
   }
@@ -53,18 +53,15 @@ h1 {
 
 h2 {
   font-size: 24px;
-  margin: 1em 0 15px;
 }
 
 h3 {
   font-size: 20px;
-  margin: 1em 0 15px;
 }
 
 h4 {
   font-size: 18px;
   color: $gray;
-  margin: 1em 0 15px;
 }
 
 p {
