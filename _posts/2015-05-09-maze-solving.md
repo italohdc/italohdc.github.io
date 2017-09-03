@@ -20,6 +20,9 @@ You can see the code and some more information about how to run it on Processing
 
 Developed for the **[RoboCup](http://www.robocup.org/) Rescue Maze Competition**.
 
-> Raptor B Team: Italo Lelis de Carvalho, João Pedro Rosada Canesin
+Raptor B Team:
+ - Italo Lelis de Carvalho
+ - João Pedro Rosada Canesin
 
-> Instructor: Igor Araujo Dias Santos
+Instructor:
+ - Igor Araujo Dias Santos
