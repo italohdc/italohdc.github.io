@@ -8,7 +8,7 @@ Aiming to participate in the [RoboCup](http://www.robocup.org/) [Rescue Maze](ht
 
 To make it easy to develop the A* Algorithm, a virtual environment was set using [**Processing**](http://processing.org/). The robot was then emulated in a two-dimensional maze.
 
-<iframe src="https://www.youtube.com/embed/kW7m7xmpSxM?showinfo=0" frameborder="0" allowfullscreen></iframe>{: .post-youtube }
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/kW7m7xmpSxM?showinfo=0" frameborder="0" allowfullscreen></iframe><!-- {: .post-youtube } -->
 
 The **A\* Search Algorithm** shows the best route to move from a point A to a point B. You can see more about the A\* Search Algorithm in the book [_Artificial Intelligence: A Modern Approach_](http://aima.cs.berkeley.edu/) by _Stuart Russell and Peter Norvig_.
 
