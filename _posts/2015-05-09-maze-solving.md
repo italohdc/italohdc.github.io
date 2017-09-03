@@ -8,13 +8,13 @@ Aiming to participate in the [RoboCup](http://www.robocup.org/) [Rescue Maze](ht
 
 To make it easy to develop the A* Algorithm, a virtual environment was set using [**Processing**](http://processing.org/). The robot was then emulated in a two-dimensional maze.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kW7m7xmpSxM?showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kW7m7xmpSxM?showinfo=0" frameborder="0" allowfullscreen></iframe>{: .post-image }
 
 The **A\* Search Algorithm** shows the best route to move from a point A to a point B. You can see more about the A\* Search Algorithm in the book [_Artificial Intelligence: A Modern Approach_](http://aima.cs.berkeley.edu/) by _Stuart Russell and Peter Norvig_.
 
 ## Source Code
 
-You can see the code and some more information about the Processing code and how to use it on the [GitHub Repository](https://github.com/italohdc/maze-solving).
+You can see the code and some more information about how to run it on Processing on the [GitHub Repository](https://github.com/italohdc/maze-solving).
 
 ## Team
 
