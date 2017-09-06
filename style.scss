@@ -282,16 +282,19 @@ nav {
 }
 
 .post-image {
-  margin: 3px auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
   display: block;
 }
 
 .post-caption {
-  text-align: center;
   font-family: $georgia;
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
 }
+
 
 .post-youtube {
   /*margin: 0 auto;
