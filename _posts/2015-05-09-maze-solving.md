@@ -2,6 +2,7 @@
 layout: post
 title:  "RoboCup Rescue Maze: A* Search"
 date:   2015-05-09 07:32:02 +0000
+thumbnail: simple_maze.jpg
 ---
 
 Aiming to participate in the [RoboCup](http://www.robocup.org/) [Rescue Maze](http://rcj.robocup.org/rcj2016/rescue_maze_2016.pdf) competition, we developed a robot capable of travelling a maze. The robot initially didn't know it's location nor the map of the environment. After going through all the maze, the robot mapped the labirint and was capable of coming back to its initial position in an optimal way. For that last function, was used the **A* Search Algorithm**.

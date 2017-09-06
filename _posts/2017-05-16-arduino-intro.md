@@ -2,6 +2,7 @@
 layout: post
 title:  "Introdução ao Arduino"
 date:   2017-05-16 07:32:02 +0000
+thumbnail: arduino.jpg
 ---
 
 O programa que você utiliza para escrever o seu código e carregá-lo para o [Arduino](https://www.arduino.cc/) é chamado de Arduino IDE (Ambiente de Desenvolvimento Integrado Arduino). Nele você consegue facilmente criar um código e enviá-lo para a placa Arduino.
