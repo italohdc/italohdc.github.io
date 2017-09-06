@@ -1,2 +1,10 @@
-<img src="{{ site.baseurl }}/images/{{ include.file }}" alt="{{ include.description }}" class="post-image">
-<span class="caption">{{ include.description }}</span>
+<img src="{{ site.baseurl }}/images/{{ include.file }}" alt="{{ include.description }}"
+
+{% if include.size %}
+width="{{ include.size }}"
+height="{{ include.size }}"
+{% endif %}
+
+class="post-image">
+
+<span class="post-caption">{{ include.description }}</span>
