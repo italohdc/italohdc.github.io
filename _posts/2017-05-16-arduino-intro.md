@@ -6,7 +6,7 @@ date:   2017-05-16 07:32:02 +0000
 
 O programa que você utiliza para escrever o seu código e carregá-lo para o [Arduino](https://www.arduino.cc/) é chamado de Arduino IDE (Ambiente de Desenvolvimento Integrado Arduino). Nele você consegue facilmente criar um código e enviá-lo para a placa Arduino.
 
-![Arduino IDE]({{ site.baseurl }}/images/screenshot_arduino_ide_blink.png)
+{% include image.html file="screenshot_arduino_ide_blink.png" description="Arduino IDE" %}
 
 [Download Arduino IDE](https://www.arduino.cc/en/Main/Software#download)
 
