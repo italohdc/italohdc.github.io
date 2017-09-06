@@ -41,7 +41,7 @@ google_analytics: UA-105791948-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://italolelis.com
+# url: http://italolelis.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -89,7 +89,7 @@ social:
     - https://www.linkedin.com/in/italoleliscarvalho/
     - https://plus.google.com/+ItaloLelis
     - https://github.com/italohdc
-logo: https://avatars0.githubusercontent.com/u/5404234?v=4&u=8959d443cfbdcd4a2172be7d9f4c6a2941393d14&s=400
+# logo: https://avatars0.githubusercontent.com/u/5404234?v=4&u=8959d443cfbdcd4a2172be7d9f4c6a2941393d14&s=400
 # descriptionSEO: Personal Blog. Italo Lelis is an Engineering Student at UFMG. Awarded prizes in many robotics competitions, either national and international, is in love with developing and coding.
 
 # Exclude these files from your production _site
