@@ -349,10 +349,8 @@ footer {
   padding: 2px 0;
   margin-top: 10px;
   text-align: center;
-}
-
-.footer-info {
-  font: $helvetica;
+  font: $verdana;
+  color: $white;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
