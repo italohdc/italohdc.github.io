@@ -14,7 +14,7 @@ permalink: /about/
 
 [italohdc@gmail.com](mailto:italohdc@gmail.com)
 
-{% include svg-icons.html %}{:.wrapper-footer}
+{% include svg-icons.html %}
 
 ---
 
