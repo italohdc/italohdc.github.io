@@ -2,6 +2,7 @@
 layout: post
 title:  "RoboCup Rescue Maze: A* Search"
 date:   2015-05-09 07:32:02 +0000
+lang: en
 thumbnail: simple_maze.jpg
 ---
 

@@ -81,7 +81,7 @@ plugins:
 
 # Google SEO
 # author: Italo Lelis
-lang: en_US
+# lang: en_US
 social:
   # name: Italo Lelis
   links:
