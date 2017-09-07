@@ -303,10 +303,7 @@ nav {
 }
 
 .post-image {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 16px 8px;
   display: block;
 }
 
@@ -315,6 +312,16 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.image-left {
+  size: 40%;
+  float: left;
+  /*clear: left;*/
+  @include mobile {
+    float: none;
+    size: 100%;
+  }
 }
 
 .post-caption {
