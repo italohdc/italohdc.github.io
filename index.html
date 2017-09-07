@@ -7,7 +7,9 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-  	  <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
+  	  <div class="date">{{ post.date | date: "%B %d, %Y" }}
+      <span> • {% if page.lang == "pt" %}Português{% else %}English{% endif %}</span>
+      </div>
 
       <div class="entry">
         {{ post.excerpt | strip_html | truncatewords: 50 }}
