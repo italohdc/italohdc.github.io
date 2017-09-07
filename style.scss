@@ -317,8 +317,10 @@ nav {
 .image-left {
   width: 40%;
   float: left;
+  padding-left: -30px;
   /*clear: left;*/
   @include mobile {
+    padding-left: 8px;
     float: none;
     width: 100%;
   }
