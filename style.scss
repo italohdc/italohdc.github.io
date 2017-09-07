@@ -314,10 +314,10 @@ nav {
   margin-right: auto;
 }
 
-.image-left {
+.image-right {
   width: 40%;
   float: left;
-  margin: 16px 16px 16px -40px;
+  margin: 16px -40px 16px 16px;
   clear: left;
   @include mobile {
     margin: auto;
