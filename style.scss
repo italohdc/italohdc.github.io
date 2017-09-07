@@ -318,10 +318,12 @@ nav {
   width: 40%;
   float: left;
   margin-left: -40px;
+  margin-top: 16px;
   margin-bottom: 16px;
   /*clear: left;*/
   @include mobile {
     margin-left: auto;
+    margin-top: auto;
     margin-bottom: auto;
     float: none;
     width: 100%;
