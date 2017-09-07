@@ -40,9 +40,10 @@ $masterColor: $githubColor;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$verdana: Verdana, Geneva, sans-serif;
+/*$verdana: Verdana, Geneva, sans-serif;*/
 $trebuchet: "Trebuchet MS", Helvetica, sans-serif;
-$serif-font: $georgia;
+$palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$serif-font: $palatino;
 $sans-serif-font: $trebuchet;
 
 // Mobile breakpoints
