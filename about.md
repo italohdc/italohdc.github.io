@@ -4,12 +4,18 @@ title: About Me
 permalink: /about/
 ---
 
-Estudante de Engenharia de Controle e Automação na UFMG
+**\#include "lelis.h"**
 
-### More Information
+👨🏻‍💻 Engineering Student @ UFMG
 
-Estudante de Engenharia na UFMG, já participou de diversas competições de robótica, tanto nacionais quanto mundiais. Apaixonado por programação, vem se especializando no estudo e aplicação de algoritmos.
+💡 Interested in Robotics, IoT, Machine Learning
 
-### Contact me
+📍 Belo Horizonte-MG
 
 [italohdc@gmail.com](mailto:italohdc@gmail.com)
+
+{% include svg-icons.html %}
+
+---
+
+Estudante de Engenharia de Controle e Automação na UFMG, já participou de diversas competições de robótica, tanto nacionais quanto mundiais. Apaixonado por programação, vem se especializando no estudo e aplicação de algoritmos.
