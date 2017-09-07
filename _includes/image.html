@@ -1,4 +1,4 @@
-<figure class="post-image image-left">
+<figure class="post-image" {% if include.float == "left" %}class="image-left"{% endif %}>
 <img src="{{ site.baseurl }}/images/{{ include.file }}" alt="{{ include.description }}">
 <figcaption class="post-caption">{{ include.description }}</figcaption>
 </figure>
