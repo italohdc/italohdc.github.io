@@ -320,11 +320,12 @@ nav {
   margin-left: -40px;
   margin-top: 16px;
   margin-bottom: 16px;
-  /*clear: left;*/
+  clear: left;
   @include mobile {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
+    clear: none;
     float: none;
     width: 100%;
   }
