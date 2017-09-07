@@ -224,7 +224,7 @@ table {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $lighterGray;
   font-size: 16px;
 
   @include mobile {
@@ -247,7 +247,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $lighterGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
