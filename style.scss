@@ -317,10 +317,12 @@ nav {
 .image-left {
   width: 40%;
   float: left;
-  margin-left: -30px;
+  margin-left: -40px;
+  margin-bottom: 16px;
   /*clear: left;*/
   @include mobile {
     margin-left: auto;
+    margin-bottom: auto;
     float: none;
     width: 100%;
   }
