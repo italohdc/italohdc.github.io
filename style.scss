@@ -314,6 +314,16 @@ nav {
   margin-right: auto;
 }
 
+.image-left {
+  width: 40%;
+  float: left;
+  /*clear: left;*/
+  @include mobile {
+    float: none;
+    width: 100%;
+  }
+}
+
 .post-caption {
   text-align: center;
   font-family: $serif-font;
