@@ -6,7 +6,7 @@ lang:   pt_BR
 thumbnail: arduino.jpg
 ---
 
-{% include image.html file="arduino101-homepage.jpg" float=true description="Arduino IDE" %}
+{% include image.html file="arduino101-homepage.jpg" float=true description="Página Inicial do Arduino 101" %}
 
 Que tal aprender um pouco mais sobre o manuseio e a utilização de um Arduino?
 
