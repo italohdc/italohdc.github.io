@@ -12,13 +12,13 @@ permalink: /about/
 
 📍 Belo Horizonte-MG
 
-[italohdc@gmail.com](mailto:italohdc@gmail.com)
-
->Graduating Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
+📧 [italohdc@gmail.com](mailto:italohdc@gmail.com)
 
 {% include svg-icons.html %}
 
 ---
+
+Graduating Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
 ### 2016
 
@@ -30,15 +30,14 @@ For the **Rescue Maze** competition, we developed a robot capable of travelling 
 
 ### 2014
 
-{% include image.html file="about-me/2014-rc001.jpg" float=true description="RoboCup 2014" %}
 
 * **1st Place** on Latin American Robotics Competition
 * **3rd Place** on RoboCup Brazil
 * Development of **Assistive Belt for Visually Impaired**
 
-We developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. For the robot, the Tremaux algorithm was used.
-
 {% include image.html file="about-me/2014-febrace.jpg" float=true description="FEBRACE 2014" %}
+
+We developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. For the robot, the Tremaux algorithm was used.
 
 Taking place in São Paulo, we presented in the USP Science Fair an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
 
@@ -55,6 +54,6 @@ In that competition, an autonomous robot was developed in order to travel an ent
 
 * **6th Place** on RoboCup Mexico
 
-{% include image.html file="about-me/2012-rc001.jpg" float=true description="RoboCup 2012" %}
+{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012" %}
 
-In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoid obstacles.
+In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles.
