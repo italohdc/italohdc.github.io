@@ -54,6 +54,6 @@ In that competition, an autonomous robot was developed in order to travel an ent
 
 * **6th Place** on RoboCup Mexico
 
-{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012" %}
-
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles.
+
+{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012" %}
