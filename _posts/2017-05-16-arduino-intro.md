@@ -6,9 +6,9 @@ lang:   pt_BR
 thumbnail: arduino.jpg
 ---
 
-{% include image.html file="arduino101-homepage.jpg" float=true description="Página Inicial do Arduino 101" %}
-
 Que tal aprender um pouco mais sobre o manuseio e a utilização de um Arduino?
+
+{% include image.html file="arduino101-homepage.jpg" float=true description="Página Inicial do Arduino 101" %}
 
 O projeto **Arduino 101** visa transmitir alguns conhecimentos básicos sobre o manuseio, prototipagem e utilização de um Arduino.
 
