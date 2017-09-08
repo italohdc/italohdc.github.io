@@ -43,10 +43,10 @@ Taking place in São Paulo, we presented in the USP Science Fair an **Assistive 
 
 ### 2013
 
+{% include image.html file="about-me/2013-rc001.jpg" float=true description="RoboCup 2013" %}
+
 * **1st Place** on Latin American Robot Competition
 * **2nd Place** on RoboCup Netherlands
-
-{% include image.html file="about-me/2013-rc001.jpg" float=true description="RoboCup 2013" %}
 
 In that competition, an autonomous robot was developed in order to travel an entire maze looking for heat victims attached to the wall. After travelling the entire maze, the robot receives a bonus if it goes back to its start position.
 
