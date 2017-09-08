@@ -42,7 +42,7 @@ In the RoboCup, We developed a robot capable of travelling a maze in the Rescue 
 
 ### 2013
 
-* **1st Place** on Latin American Robot Competition
+* **1st Place** on Latin American Robotics Competition
 * **2nd Place** on RoboCup Netherlands
 
 {% include image.html file="about-me/2013-rc001.jpg" float=true description="RoboCup 2013" %}
