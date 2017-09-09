@@ -24,7 +24,7 @@ Graduating Engineering Student at the Federal University of Minas Gerais (UFMG),
 
 * 9th Place on RoboCup Germany
 
-{% include image.html file="about-me/2016-rc001.jpg" float=true description="RoboCup 2016" %}
+{% include image.html file="about-me/2016-rc001.jpg" float=true description="RoboCup 2016 - Germany" %}
 
 For the **Rescue Maze** competition, we developed a robot capable of travelling a maze and returning, in an optimal way, to its original point. For that, was used **Tremaux** to explore the labirinth and [**A* Algorithm**](https://italohdc.github.io/posts/maze-solving) to compute the optimal way.
 
@@ -45,7 +45,7 @@ In the RoboCup, we developed a robot capable of travelling a maze in the Rescue 
 * **1st Place** on Latin American Robotics Competition
 * **2nd Place** on RoboCup Netherlands
 
-{% include image.html file="about-me/2013-rc001.jpg" float=true description="RoboCup 2013" %}
+{% include image.html file="about-me/2013-rc001.jpg" float=true description="RoboCup 2013 - Netherlands" %}
 
 In the Rescue Maze competition, an autonomous robot was developed in order to travel an entire maze looking for heat victims attached to the wall. After travelling the entire maze, the robot receives a bonus if it goes back to its start position. To travel the maze, the **Tremaux algorithm** was used and the actual position of the robot was saved in a Cartesian system.
 
@@ -55,4 +55,4 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
-{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012" %}
+{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %}
