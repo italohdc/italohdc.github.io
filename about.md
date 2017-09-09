@@ -38,7 +38,7 @@ For the **Rescue Maze** competition, we developed a robot capable of travelling 
 
 Taking place in São Paulo, we presented in the USP Science Fair an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
 
-In the RoboCup, We developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. To achieve the objective, the Tremaux algorithm was used.
+In the RoboCup, we developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. To achieve the objective, the Tremaux algorithm was used.
 
 ### 2013
 
