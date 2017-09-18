@@ -16,11 +16,11 @@ O guia a seguir apresentará o passo a passo de como instalar e configurar o ace
 
 > Uma outra opção de Sistema Operacional para utilizar na Raspberry é o [DietPi](http://dietpi.com/), que é baseado no Raspbian, porém mais leve.
 
-# Configurando o acesso remoto à Raspberry sem um monitor
+## Configurando o acesso remoto à Raspberry sem um monitor
 
 Primeiramente, será necessário baixar uma imagem do [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) (o Raspbian é um sistema operacional Linux baseado no Debian otimizado para o hardware da Raspberry Pi) e instalar num cartão **microSD**.
 
-## Instalando o Raspbian no cartão microSD (Windows)
+### Instalando o Raspbian no cartão microSD (Windows)
 
 Para instalar o Raspbian no cartão microSD, será necessário o programa [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/).
 
@@ -30,7 +30,7 @@ Para instalar o Raspbian no cartão microSD, será necessário o programa [Win32
 2. Selecione no programa o o arquivo ``.img`` descompactado e a letra da unidade que está localizado o cartão de memória. Por exemplo, letra ``E:``.
 3. Após conferir que a imagem e o dispositivo selecionados estão corretos, selecione no programa a opção ``Write``. (Essa etapa pode demorar um pouco, dependendo da velocidade de gravação do seu cartão microSD)
 
-## Configurando a conexão Wi-Fi
+### Configurando a conexão Wi-Fi
 
 Na nova partição ``boot`` criada no cartão de memória, crie um arquivo com o seguinte nome:
 
@@ -52,13 +52,13 @@ network={
 
 Lembrando de substituir ``SSID`` pelo nome da sua rede Wi-Fi e ``PASSWORD`` pela senha da sua rede Wi-Fi. O parâmetro ``key_mgmt`` refere-se ao protocolo de segurança utilizado pela rede.
 
-## Ativando SSH
+### Ativando SSH
 
 As novas versões do Raspbian vêm com _SSH_ desativado por padrão, por questões de segurança. O _SSH_ é um protocolo de rede que será utilizado para fazer a comunicação entre o seu computador e a Raspberry.
 
 Ainda no diretório principal da unidade ``boot`` do cartão de memória, crie um arquivo vazio com o nome ``ssh``
 
-## Conectando à Raspberry remotamente
+### Conectando à Raspberry remotamente
 
 Os arquivos no cartão de memória estão devidamente configurados. Desconecte o cartão microSD do computador e conecte à sua Raspberry Pi. Conecte a Raspberry a uma fonte de alimentação e espere um momento enquanto é realizado o boot do sistema.
 
