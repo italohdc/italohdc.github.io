@@ -14,7 +14,7 @@ O modo mais fácil de fazer a configuração inicial é utilizando um monitor, m
 
 O guia a seguir apresentará o passo a passo de como instalar e configurar o acesso remoto ao sistema Raspbian na sua Raspberry. Para controlar a Raspberry remotamente, será necessário que o seu computador e a Raspberry estejam conectados à mesma rede Wi-Fi.
 
-> Uma outra opção de Sistema Operacional para utilizar na Raspberry é o [DietPi](http://dietpi.com/), que é baseado no Raspbian, porém mais leve.
+> Uma outra opção de Sistema Operacional para utilizar na Raspberry é o [DietPi](http://dietpi.com/), que é baseado no Raspbian, porém é mais leve.
 
 ## Configurando o acesso remoto à Raspberry sem um monitor
 
