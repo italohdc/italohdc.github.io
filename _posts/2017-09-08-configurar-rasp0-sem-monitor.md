@@ -38,7 +38,7 @@ Na nova partição ``boot`` criada no cartão de memória, crie um arquivo com o
 wpa_supplicant.conf
 ```
 
-{% include image.html file="2017-09-08-configurar-rasp0-sem-monitor/win32-disk-imager.png" description="Unidade de boot" %}
+{% include image.html file="2017-09-08-configurar-rasp0-sem-monitor/boot-folder.png" description="Unidade de boot" %}
 
 Edite o arquivo criado e adicione os seguintes parâmetros:
 
