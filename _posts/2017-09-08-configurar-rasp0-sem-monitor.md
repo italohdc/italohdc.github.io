@@ -58,7 +58,7 @@ As novas versões do Raspbian vêm com _SSH_ desativado por padrão, por questõ
 
 Ainda no diretório principal da unidade ``boot`` do cartão de memória, crie um arquivo vazio com o nome ``ssh``
 
-## 
+## Conectando à Raspberry remotamente
 
 Os arquivos no cartão de memória estão devidamente configurados. Desconecte o cartão microSD do computador e conecte à sua Raspberry Pi. Conecte a Raspberry a uma fonte de alimentação e espere um momento enquanto é realizado o boot do sistema.
 
