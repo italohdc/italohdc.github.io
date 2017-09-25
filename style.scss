@@ -122,12 +122,16 @@ img {
 }
 
 td { 
-    padding: 20px;
+  padding: 20px;
 }
 
 table { 
-    border-spacing: 20px;
-    border-collapse: separate;
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+
+table td {
+  border:1px solid #FF0000;
 }
 
 // Fixes images in popup boxes from Google Translate

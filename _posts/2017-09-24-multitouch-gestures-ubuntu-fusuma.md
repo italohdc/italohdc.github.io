@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Touchpad Gestures in your Ubuntu laptop"
+title:  "Setting up Touchpad Gestures in your Ubuntu Laptop"
 date:   2017-09-24 22:30:00 +0000
 lang:   en
 thumbnail: macbook_pro-trackpad.jpg
@@ -8,7 +8,7 @@ thumbnail: macbook_pro-trackpad.jpg
 
 If you ever used a MacBook (or if you have a Windows 10 laptop with a compatible touchpad), you know how pleasant and useful can be the trackpad gestures to change desktops, show all open windows and pinch-to-zoom. Beyond the visual effects, these tools are more intuitive than a keyboard shortcut and thus can improve our productivity.
 
-{% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/mission-control-mac.gif" description="Exposé Gesture on Mac" %}
+{% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/mission-control-mac.gif" float=true description="Exposé Gesture on Mac" %}
 
 Unfortunately these gestures are not available by default on the major Linux distributions. But thanks to [Kohei Yamada](https://github.com/iberianpig), who developed the application [Fusuma](https://github.com/iberianpig/fusuma) in [Ruby](https://www.ruby-lang.org/en/) to recognize multitouch input on the trackpad on Linux, shortcuts can be easily configured to different gestures.
 
@@ -100,6 +100,8 @@ These are the gestures and respective actions:
 | 4 Fingers - Up    | Desktop Down       |
 | 4 Fingers - Down  | Desktop Up         |
 
+---
+
 ### For GNOME:
 
 ```ruby
@@ -181,6 +183,8 @@ In the field _Name_ write ``Fusuma`` and in the field ``Command`` write ``fusuma
 {% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/add-fusuma-startup.png" description="Unity Search Menu" %}
 
 Now you can restart your computer and Fusuma will run as soon as you login.
+
+---
 
 ### For GNOME:
 
