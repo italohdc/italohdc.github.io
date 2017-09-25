@@ -198,6 +198,6 @@ Open the program and click the button _Add_.
 
 In the field _Name_ write ``Fusuma`` and in the field _Command_ write ``fusuma``.
 
-{% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/add-fusuma-startup.png" description="Unity Search Menu" %}
+{% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/add-fusuma-startup.png" description="Add Startup Program" %}
 
 Now you can restart your computer and Fusuma will run as soon as you login.
