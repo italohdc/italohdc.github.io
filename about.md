@@ -28,6 +28,12 @@ Graduating Engineering Student at the Federal University of Minas Gerais (UFMG),
 
 For the **Rescue Maze** competition, we developed a robot capable of travelling a maze and returning, in an optimal way, to its original point. For that, was used **Tremaux** to explore the labirinth and [**A* Algorithm**](https://italohdc.github.io/posts/maze-solving) to compute the optimal way.
 
+### 2015
+
+* **1st Place** on Latin American Robotics Competition
+
+We were **three-time champion** in consecutive years for the Rescue Maze on the Latin America Competition.
+
 ### 2014
 
 * **1st Place** on Latin American Robotics Competition
