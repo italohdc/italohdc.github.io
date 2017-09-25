@@ -127,10 +127,15 @@ table {
 }
 
 table, th, td {
-  border:1px solid $gray;
+  border:1px solid $white;
+}
+
+th {
+  background-color: $lightGray;
 }
 
 td { 
+  background-color: $lighterGray;
   padding: 12px;
 }
 
