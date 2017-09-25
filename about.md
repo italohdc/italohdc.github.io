@@ -32,7 +32,7 @@ For the **Rescue Maze** competition, we developed a robot capable of travelling 
 
 * **1st Place** on Latin American Robotics Competition
 
-We were **three-time champion** in consecutive years for the Rescue Maze on the Latin America Competition.
+We were **three-time champion** in consecutive years for the Rescue Maze on the Latin American Competition.
 
 ### 2014
 
