@@ -124,10 +124,11 @@ img {
 table { 
   border-spacing: 5px;
   border-collapse: collapse;
+  margin-bottom: 15px;
 }
 
 table, th, td {
-  border:1px solid $white;
+  border:2px solid $white;
 }
 
 th {
