@@ -18,7 +18,7 @@ permalink: /about/
 
 ---
 
-Graduating Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
+Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
 ### 2016
 
