@@ -22,9 +22,9 @@ Graduating Engineering Student at the Federal University of Minas Gerais (UFMG),
 
 ### 2016
 
-{% include image.html file="about-me/2016-rc001.jpg" float=true description="RoboCup 2016 - Germany" %}
-
 * 9th Place on RoboCup Germany
+
+{% include image.html file="about-me/2016-rc001.jpg" float=true description="RoboCup 2016 - Germany" %}
 
 For the **Rescue Maze** competition, we developed a robot capable of travelling a maze and returning, in an optimal way, to its original point. For that, was used **Tremaux** to explore the labirinth and [**A* Algorithm**](https://italohdc.github.io/posts/maze-solving) to compute the optimal way.
 
