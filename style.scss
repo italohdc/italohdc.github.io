@@ -389,7 +389,8 @@ footer {
 .author-description {
   padding: 12px 18px;
   margin: 24px 0;
-  background-color: $lightGray ;
+  background-color: $lightGray;
+  clear: both;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
