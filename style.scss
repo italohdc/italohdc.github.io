@@ -484,6 +484,7 @@ footer {
 }
 
 .content-fadein {
+  -webkit-animation: fadein 800ms;
   animation: fadein 800ms;
 }
 
