@@ -14,6 +14,10 @@ layout: default
     </div>
     
     <div class="entry">
+      {% if post.thumbnail %}<div class="post-image-preview">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
+        </img></a></div>{% endif %}
       {{ post.excerpt | strip_html | truncatewords: 50 }}
     </div>
     

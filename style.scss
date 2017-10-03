@@ -344,6 +344,14 @@ nav {
   background-color: $masterColor;
 }
 
+.post-image-preview {
+  display: block;
+  max-width: 150px;
+  height: 100px;
+}
+
+.post-image-preview img
+
 .post-image {
   padding: 16px 8px;
   display: block;
