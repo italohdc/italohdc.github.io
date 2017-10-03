@@ -408,8 +408,8 @@ footer {
   @include big-screen {
     opacity: 0;
     animation-name: fadein;
-    animation-duration: 500ms;
-    animation-delay: 500ms;
+    animation-duration: 450ms;
+    animation-delay: 650ms;
     animation-fill-mode: forwards;
     display: block;
     float: right;
