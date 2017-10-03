@@ -422,6 +422,7 @@ footer {
 .twitter-widget {
   display: none;
   @include big-screen {
+    opacity: 0;
     display: block;
     float: right;
     // position: absolute;
