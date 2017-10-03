@@ -206,6 +206,11 @@ hr {
   @include mobile {
     text-align: center;
   }
+
+  @include big-screen {
+    margin-left: -140px;
+    margin-right: -140px;
+  }
 }
 
 .site-avatar {
@@ -248,7 +253,8 @@ hr {
 .site-description {
   margin: -5px 0 0 0;
   font-family: $sans-serif-font;
-  color: $gray2;
+  // color: $gray2;
+  color: $lightGray;
   font-size: 16px;
 
   @include mobile {
@@ -393,7 +399,8 @@ footer {
   margin-top: 10px;
   text-align: center;
   font-family: $sans-serif-font;
-  color: $gray2;
+  // color: $gray2;
+  color: $lightGray;
 }
 
 .author-description {
