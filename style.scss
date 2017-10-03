@@ -349,7 +349,11 @@ nav {
   display: block;
   max-width: 150px;
   max-height: 100px;
+  margin-top: 6px;
   padding: 4px 4px 4px 0;
+  @include mobile {
+    display: none;
+  }
 }
 
 .post-image-preview img {
