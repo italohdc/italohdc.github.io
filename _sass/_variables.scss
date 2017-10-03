@@ -59,12 +59,7 @@ $sans-serif-font: $trebuchet;
   }
 }
 
-@keyframes center-post-on-big-screen {
-  from {margin-left: -140px;}
-  to {margin-left: 0;}
-}
-
-@keyframes fade-in {
+@keyframes fadein {
   from {opacity: 0;}
   to {opacity: 1;}
 }

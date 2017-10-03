@@ -18,8 +18,6 @@ permalink: /about/
 
 ---
 
-<div class="more-about-me">
-
 Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
 ### 2016
@@ -64,5 +62,3 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
 {% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %}
-
-</div>

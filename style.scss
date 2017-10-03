@@ -325,14 +325,6 @@ nav {
   }
 }
 
-.body-to-center-transition {
-  @include big-screen {
-    width: 720px;
-    animation-name: center-post-on-big-screen;
-    animation-duration: 1.5s;
-  }
-}
-
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -414,7 +406,7 @@ footer {
 .twitter-widget {
   display: none;
   @include big-screen {
-    animation-name: fade-in;
+    animation-name: fadein;
     animation-duration: 5s;
     // animation-delay: 1s;
     display: block;
@@ -428,8 +420,10 @@ footer {
   }
 }
 
-.more-about-me {
-  animation: fade-in 1.5s;
+.content-fadein {
+  @include big-screen {
+    animation: fadein 1.5s;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
