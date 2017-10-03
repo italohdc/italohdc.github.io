@@ -406,6 +406,7 @@ footer {
 .twitter-widget {
   display: none;
   @include big-screen {
+    opacity: 0;
     animation-name: fadein;
     animation-duration: 1s;
     animation-delay: 1s;
