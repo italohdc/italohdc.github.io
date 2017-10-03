@@ -422,6 +422,9 @@ footer {
 .twitter-widget {
   display: none;
   @include big-screen {
+    animation-name: fade-in;
+    animation-duration: 500ms;
+    animation-delay: 1s;
     opacity: 0;
     display: block;
     float: right;
@@ -431,9 +434,6 @@ footer {
     // left: 50%;
     margin-left: 40px;
     margin-right: -140px;
-    animation-name: fade-in;
-    animation-delay: 1s;
-    animation-duration: 500ms;
   }
 }
 
