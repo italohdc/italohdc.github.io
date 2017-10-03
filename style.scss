@@ -430,6 +430,9 @@ footer {
     // left: 50%;
     margin-left: 40px;
     margin-right: -140px;
+    animation-name: fade-in;
+    animation-delay: 1s;
+    animation-duration: 500ms;
   }
 }
 
