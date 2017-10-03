@@ -484,9 +484,7 @@ footer {
 }
 
 .content-fadein {
-  @include big-screen {
-    animation: fadein 800ms;
-  }
+  animation: fadein 800ms;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
