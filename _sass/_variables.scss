@@ -64,17 +64,6 @@ $sans-serif-font: $trebuchet;
   to {margin-left: 0;}
 }
 
-@keyframes left-post-on-big-screen {
-  from {
-    margin-left: 0;
-    padding-right: -120px;
-  }
-  to {
-    margin-left: -140px;
-    padding-right: 0px;
-  }
-}
-
 @keyframes fade-in {
   from {opacity: 0;}
   to {opacity: 1;}

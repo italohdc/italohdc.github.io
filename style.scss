@@ -329,15 +329,7 @@ nav {
   @include big-screen {
     width: 720px;
     animation-name: center-post-on-big-screen;
-    animation-duration: 1.0s;
-  }
-}
-
-.body-to-left-transition {
-  @include big-screen {
-    width: 720px;
-    animation-name: left-post-on-big-screen;
-    animation-duration: 1.0s;
+    animation-duration: 1.5s;
   }
 }
 
@@ -423,7 +415,7 @@ footer {
   display: none;
   @include big-screen {
     animation-name: fade-in;
-    animation-duration: 500ms;
+    animation-duration: 1s;
     // animation-delay: 1s;
     display: block;
     float: right;
