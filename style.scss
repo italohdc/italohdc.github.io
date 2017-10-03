@@ -407,8 +407,8 @@ footer {
   display: none;
   @include big-screen {
     animation-name: fadein;
-    animation-duration: 5s;
-    // animation-delay: 1s;
+    animation-duration: 1s;
+    animation-delay: 1s;
     display: block;
     float: right;
     // position: absolute;
@@ -422,7 +422,7 @@ footer {
 
 .content-fadein {
   @include big-screen {
-    animation: fadein 1.5s;
+    animation: fadein 800ms;
   }
 }
 
