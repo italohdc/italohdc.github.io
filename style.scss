@@ -287,6 +287,12 @@ nav {
 // .main
 //
 
+.posts {
+  @include big-screen {
+    margin-left: -130px;
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px;
@@ -406,7 +412,7 @@ footer {
     height: 720px;
     // left: 50%;
     // margin-left: 350px;
-    margin-right: -260px;
+    margin-right: -130px;
   }
 }
 
