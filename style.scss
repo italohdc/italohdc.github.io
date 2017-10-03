@@ -399,6 +399,7 @@ footer {
 .twitter-timeline {
   display: none;
   @include big-screen {
+    float: right;
     // display: block;
     // position: absolute;
     width: 220px;
