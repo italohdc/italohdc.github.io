@@ -67,11 +67,11 @@ $sans-serif-font: $trebuchet;
 @keyframes left-post-on-big-screen {
   from {
     margin-left: 0;
-    margin-right: -120px;
+    padding-right: -120px;
   }
   to {
     margin-left: -140px;
-    margin-right: 0px;
+    padding-right: 0px;
   }
 }
 
