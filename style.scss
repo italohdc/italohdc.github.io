@@ -348,7 +348,17 @@ nav {
   float: left;
   display: block;
   max-width: 150px;
-  height: 100px;
+  max-height: 100px;
+  padding: 2px 0 2px 2px;
+  border-radius: 3px;
+}
+
+.post-image-preview img {
+  max-height: 100px;
+}
+
+.entry {
+  min-height: 100px;
 }
 
 .post-image {
