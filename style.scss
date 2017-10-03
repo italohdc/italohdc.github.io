@@ -213,6 +213,12 @@ hr {
   }
 }
 
+.masthead a {
+  &:hover, &:active {
+    color: $darkerGray;
+  }
+}
+
 .site-avatar {
   float: left;
   width: 70px;
