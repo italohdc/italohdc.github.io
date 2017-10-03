@@ -351,9 +351,9 @@ nav {
   clear: both;
   display: inline-block;
   @include mobile {
-    margin: auto;
     clear: none;
     float: none;
+    margin: auto;
     width: 100%;
   }
 }
