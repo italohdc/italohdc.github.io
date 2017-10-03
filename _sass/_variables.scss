@@ -63,3 +63,8 @@ $sans-serif-font: $trebuchet;
   from {margin-left: -140px;}
   to {margin-left: 0;}
 }
+
+@keyframes left-post-on-big-screen {
+  from {margin-left: 0;}
+  to {margin-left: -140px;}
+}

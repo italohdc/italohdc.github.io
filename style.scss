@@ -325,11 +325,19 @@ nav {
   }
 }
 
-.post-center-transition {
+.body-to-center-transition {
   @include big-screen {
     width: 720px;
     animation-name: center-post-on-big-screen;
-    animation-duration: 0.5s;
+    animation-duration: 1.0s;
+  }
+}
+
+.body-to-left-transition {
+  @include big-screen {
+    width: 720px;
+    animation-name: left-post-on-big-screen;
+    animation-duration: 1.0s;
   }
 }
 
