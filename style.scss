@@ -399,7 +399,7 @@ footer {
 .twitter-timeline {
   display: none;
   @include big-screen {
-    display: block;
+    // display: block;
     position: absolute;
     width: 220px;
     max-height: 720px;
