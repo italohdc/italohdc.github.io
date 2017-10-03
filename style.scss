@@ -270,6 +270,7 @@ hr {
 
 nav {
   float: right;
+  display: flex;
   margin-top: 23px; // @TODO: Vertically middle align
   max-height: 30px;
   font-family: $helveticaNeue;
