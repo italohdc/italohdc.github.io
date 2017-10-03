@@ -400,13 +400,13 @@ footer {
   display: none;
   @include big-screen {
     float: right;
-    // display: block;
+    display: block;
     // position: absolute;
     width: 220px;
     height: 720px;
     // left: 50%;
     // margin-left: 350px;
-    margin-right: 20px;
+    // margin-right: 20px;
   }
 }
 
