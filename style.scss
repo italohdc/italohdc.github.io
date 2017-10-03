@@ -294,18 +294,24 @@ nav {
       color: $white;
     }
   }
+
+  p {
+    color: $lightGray;
+    font-size: 12px;
+    margin: -1px 0 0 0;
+
+    @include mobile {
+      color: $white;
+    }
+  }
 }
 
 .nav-item {
-  color: $lightGray;
   text-align: center;
   margin-left: 20px;
 }
 
-.nav-item p {
-  font-size: 14px;
-  margin: -2px 0 0 0;
-}
+
 
 //
 // .main
