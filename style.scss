@@ -400,11 +400,12 @@ footer {
   display: none;
   @include big-screen {
     // display: block;
-    position: absolute;
-    width: 220px;
-    max-height: 720px;
-    left: 50%;
-    margin-left: 350px;
+    // position: absolute;
+    // width: 220px;
+    // max-height: 720px;
+    // left: 50%;
+    // margin-left: 350px;
+    margin-right: 20px;
   }
 }
 
