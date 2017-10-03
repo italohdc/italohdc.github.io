@@ -271,6 +271,7 @@ hr {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
+  max-height: 30px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -292,6 +293,15 @@ nav {
       margin: 0 10px;
       color: $white;
     }
+  }
+}
+
+.nav-description {
+  text-align: center;
+  
+  p {
+    font-size: 14px;
+    margin: -2px 0 0 0;
   }
 }
 
