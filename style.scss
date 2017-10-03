@@ -415,7 +415,7 @@ footer {
   display: none;
   @include big-screen {
     animation-name: fade-in;
-    animation-duration: 1s;
+    animation-duration: 5s;
     // animation-delay: 1s;
     display: block;
     float: right;
@@ -426,6 +426,10 @@ footer {
     margin-left: 40px;
     margin-right: -140px;
   }
+}
+
+.more-about-me {
+  animation: fade-in 1.5s;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
