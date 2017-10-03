@@ -52,3 +52,9 @@ $sans-serif-font: $trebuchet;
     @content;
   }
 }
+
+@mixin big-screen {
+	@media screen and (min-width: 1280px) {
+	  @content;
+	}
+  }
