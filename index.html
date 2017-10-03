@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include twitterTimeline.html %}
+
 <div class="posts">
   {% for post in site.posts %}
   <article class="post">
@@ -19,5 +21,3 @@ layout: default
   </article>
   {% endfor %}
 </div>
-
-{% include twitterTimeline.html %}
