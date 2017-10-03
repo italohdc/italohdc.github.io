@@ -323,14 +323,9 @@ nav {
     font-family: $sans-serif-font;
     font-size: 15px;
   }
-
-  @include big-screen {
-    animation-name: center-post-on-big-screen;
-    animation-duration: 0.5s;
-  }
 }
 
-.page {
+.post-center-transition {
   @include big-screen {
     width: 720px;
     animation-name: center-post-on-big-screen;
