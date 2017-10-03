@@ -410,6 +410,7 @@ footer {
     animation-name: fadein;
     animation-duration: 1s;
     animation-delay: 1s;
+    animation-fill-mode: forwards;
     display: block;
     float: right;
     // position: absolute;
