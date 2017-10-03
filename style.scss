@@ -219,6 +219,10 @@ hr {
   }
 }
 
+.masthead svg:hover {
+  fill: $darkerGray;
+}
+
 .site-avatar {
   float: left;
   width: 70px;
