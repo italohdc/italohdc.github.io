@@ -10,7 +10,7 @@ permalink: /about/
 
 💡 Interested in Robotics, IoT, Machine Learning
 
-📍 Belo Horizonte-MG
+📍 Belo Horizonte-MG, Brazil
 
 📧 [italohdc@gmail.com](mailto:italohdc@gmail.com)
 
