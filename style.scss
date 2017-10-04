@@ -216,7 +216,7 @@ hr {
 
 .masthead a {
     &:hover, &:active {
-    color: $darkerGray;
+    color: $gray2;
   }
 }
 
@@ -250,7 +250,7 @@ hr {
 
 .site-name {
   margin: 0;
-  color: $lightGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -313,7 +313,7 @@ nav {
     letter-spacing: 0.5px;
     
     &:hover, &:active {
-      color: $darkerGray;
+      color: $gray2;
     }
     
     @include mobile {
