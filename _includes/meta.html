@@ -5,24 +5,28 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    {% if page.excerpt %}
+    <!-- {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
     <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
     <meta property="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
-    {% endif %}
+    {% endif %} -->
 
-    <meta name="author" content="{{ site.author }}" />
+    <!-- <meta name="author" content="{{ site.author }}" />
     <meta name="twitter:card" content="summary" />
     {% if site.author_twitter %}
     <meta name="twitter:creator" content="@{{ site.author_twitter }}">
-    {% endif %}
+    {% endif %} -->
 
-    <meta property="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
+    <!-- <meta property="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" /> -->
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@italohdc" />
+    <meta name="twitter:creator" content="@italohdc" />
 
     {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.baseurl }}/images/thumbnails/{{ page.thumbnail }}">
@@ -30,12 +34,3 @@
     {% else %}
     <meta property="og:image" content="{{ site.baseurl }}/images/profile_pic.jpg">
     {% endif %}
-
-    <!-- Custom status bar color -->
-
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#2b749f">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#2b749f">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#2b749f">
