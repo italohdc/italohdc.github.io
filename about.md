@@ -12,7 +12,7 @@ permalink: /about/
 
 📍 Belo Horizonte-MG, Brazil
 
-📧 [italohdc@gmail.com](mailto:italohdc@gmail.com)
+📧 [italohdc@gmail.com](mailto:hello@italolelis.com)
 
 {% include svg-icons.html %}
 
