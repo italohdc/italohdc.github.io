@@ -385,11 +385,11 @@ nav {
 
 .tag-lang {
   display: block;
-  width: -moz-fit-content;
-  width: -webkit-fill-available;
-  width: fit-content;
+  width: -moz-fit-content, -webkit-fill-available;
+  width: 65px;
   background-color: #eee;
   font-family: $sans-serif-font;
+  text-align: center;
   font-size: 14px;
   color: #666;
   padding: 1px 8px;
