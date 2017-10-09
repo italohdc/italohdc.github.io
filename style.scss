@@ -386,6 +386,8 @@ nav {
 .tag-lang {
   display: block;
   width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fill-available;
   background-color: #eee;
   font-family: $sans-serif-font;
   font-size: 14px;
