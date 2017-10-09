@@ -30,7 +30,7 @@
 
     {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.baseurl }}/images/thumbnails/{{ page.thumbnail }}">
-    <meta property="twitter:image" content="{{ site.baseurl }}/images/thumbnails/{{ page.thumbnail }}">
+    <meta property="twitter:image" content="{{ site.baseurl }}/{{ site.baseurl }}/images/thumbnails/{{ page.thumbnail }}">
     {% else %}
     <meta property="og:image" content="{{ site.baseurl }}/images/profile_pic.jpg">
     {% endif %}
