@@ -383,6 +383,14 @@ nav {
   }
 }
 
+.posts-borderline {
+  border-top: 2px solid #bbb;
+
+  @include mobile {
+    border-top: 0;
+  }
+}
+
 .tag-lang {
   display: block;
   width: 65px;
