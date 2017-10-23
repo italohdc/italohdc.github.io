@@ -6,23 +6,24 @@ layout: default
 
 <div class="posts content-fadein">
   {% for post in site.posts %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
   <article class="post">
     
     {% if post.lang == "pt_BR" %}<span class="tag-lang">PT BR</span>{% endif %}
-    <h1 class="posts-borderline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <h1 class="posts-borderline">{{ post.title }}</h1>
     <div class="date">{{ post.date | date: "%B %d, %Y" }}
       <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
     </div>
     
     <div class="entry">
       {% if post.thumbnail %}<div class="post-image-preview">
-        <a href="{{ site.baseurl }}{{ post.url }}">
         <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
-        </img></a></div>{% endif %}
+        </img></div>{% endif %}
       {{ post.excerpt | strip_html | truncatewords: 50 }}
     </div>
     
-    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
   </article>
+  </a>
   {% endfor %}
 </div>
