@@ -376,6 +376,10 @@ nav {
     @include big-screen {
       margin-left: -24px;
     }
+    
+    @include mobile {
+      border-left: 6px solid $gray;
+    }
   }
 
   .comments {
