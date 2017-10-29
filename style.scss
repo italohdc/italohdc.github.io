@@ -469,8 +469,9 @@ nav {
   @include mobile {
     clear: none;
     float: none;
+    display: block;
     margin: auto;
-    width: 100%;
+    width: 80%;
   }
 }
 
