@@ -15,7 +15,8 @@ Unfortunately, probably because of my inappropriate use, as your customer servic
 To show you what happened on my iPhone, I'm gonna send attached a video I took with my low-end Motorola device from 2013 (which, by the way, works as intended :]) of the malfunctioning screen.
 
 
-Sincerely, 
+Sincerely,
+
 ​​Italo Lelis
 
 {% include image.html file="iphone5-flickering-screen.gif" description="flickering_screen.mp4" %}
