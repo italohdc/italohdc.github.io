@@ -72,7 +72,7 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
-{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %}
+<!-- {% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %} -->
 
 ---
 
@@ -83,7 +83,14 @@ In Mexico, we participated in a competition in which we should develop a robot c
 {% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
 
 >A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
+<!-- Unfortunately, I can't acknowledge everyone in plain text, as this page would get very big and messy. But I would like to thank everyone that somehow contributed to this project with this easter egg ;) -->
+<!-- >- Andrique Figueiredo Amorim -->
+<!-- >- Daniel Hymer dos Santos Frota -->
+<!-- >- Hugo Santos Dias -->
 >- Igor Araujo
 >- Joao Paulo Sandes Brito
 >- Joao Pedro Rosada Canesin
 >- Joao Pedro Vilas Boas Silva
+<!-- >- Luiz Victor Fonseca Brasil -->
+<!-- >- Luisa Silva Oliveira -->
+<!-- >- Marilia de Mello Amorim Novais e Silva -->
