@@ -69,4 +69,10 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 Rescue Maze robot (RoboCup 2015):
 
-{% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0&autoplay=1&loop=1" %}
+{% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
+
+>A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
+>- Igor Araujo
+>- Joao Paulo Sandes Brito
+>- Joao Pedro Rosada Canesin
+>- Joao Pedro Vilas Boas Silva
