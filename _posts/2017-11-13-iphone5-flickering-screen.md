@@ -6,7 +6,7 @@ lang:   en
 thumbnail: iphone5-ghost-screen.jpg
 ---
 
-Since my first iPod Touch, I haven't been buying Apple products because they tend to be very expensive, but as a loyal fan of the brand, I got a barely new iPhone 5 (which only had a lot of scratch marks) from my mom.
+Since my first iPod Touch, I haven't been buying Apple products because they tend to be very expensive, but as a loyal fan of the brand, I got a used but barely new iPhone 5 (which only had a lot of scratch marks).
 
 When I first used that device, I was impressed by the perfection the Apple team has put on this 2012 device with 2011 Android features. It run as smoothie as a 2013 low-end smartphone.
 
