@@ -25,7 +25,7 @@ Undergraduate Engineering Student at the Federal University of Minas Gerais (UFM
 * **2nd Place** on AbbVie Hackathon
 * Lecture about IoT (Internet of Things) on BH-Tec
 
-{% include image.html file="about-me/2017-iot-talk-bhtec" float=true description="Lecture about IoT" %}
+{% include image.html file="about-me/2017-iot-talk-bhtec.jpg" float=true description="Lecture about IoT" %}
 
 In the Campus Party we developed a mockup of an app to help the citizen keep track of his medical appointments and were awarded the 2nd place on the AbbVie Hackathon.
 
