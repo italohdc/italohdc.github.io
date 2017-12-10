@@ -67,7 +67,7 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 ## Some of the projects I've worked
 
-Rescue Maze robot (RoboCup 2015):
+### Rescue Maze robot (RoboCup 2015)
 
 {% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
 
