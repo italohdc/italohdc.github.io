@@ -62,3 +62,11 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
 {% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %}
+
+---
+
+## Some of the projects I've worked
+
+Rescue Maze robot (RoboCup 2015):
+
+{% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0&autoplay=1&loop=1" %}
