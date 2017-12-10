@@ -23,13 +23,13 @@ Undergraduate Engineering Student at the Federal University of Minas Gerais (UFM
 ### 2017
 
 * **2nd Place** on AbbVie Hackathon
-* Lecture about IoT (Internet of Things) on BH-Tec
+* Lecture about IoT (Internet of Things) on BH-TEC
 
 {% include image.html file="about-me/2017-iot-talk-bhtec.jpg" float=true description="Lecture about IoT" %}
 
 In the Campus Party we developed a mockup of an app to help the citizen keep track of his medical appointments and were awarded the 2nd place on the AbbVie Hackathon.
 
-Taking place in the Technological Park of Belo Horizonte, I presented a lecture about some [low-cost platforms to develop to the Internet of Things](https://www.slideshare.net/ItaloLelis1/novas-plataformas-de-baixo-custo-para-a-internet-das-coisas).
+Taking place in the Technological Park of Belo Horizonte, I presented a lecture about some [low-cost platforms to develop to the Internet of Things](https://www.slideshare.net/ItaloLelis1/novas-plataformas-de-baixo-custo-para-a-internet-das-coisas). Amongst the presented topics: Raspberry Pi, ESP8266, MQTT, LORA Network, PlatformIO, Android Things.
 
 ### 2016
 
