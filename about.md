@@ -20,6 +20,17 @@ permalink: /about/
 
 Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
+### 2017
+
+* **2nd Place** on AbbVie Hackathon
+* Lecture about IoT (Internet of Things) on BH-Tec
+
+{% include image.html file="about-me/2017-iot-talk-bhtec" float=true description="Lecture about IoT" %}
+
+In the Campus Party we developed a mockup of an app to help the citizen keep track of his medical appointments and were awarded the 2nd place on the AbbVie Hackathon.
+
+Taking place in the Technological Park of Belo Horizonte, I presented a lecture about some [low-cost platforms to develop to the Internet of Things](https://www.slideshare.net/ItaloLelis1/novas-plataformas-de-baixo-custo-para-a-internet-das-coisas).
+
 ### 2016
 
 * 9th Place on RoboCup Germany
@@ -67,7 +78,7 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 ## Some of the projects I've worked
 
-### Rescue Maze robot (RoboCup 2015)
+### Rescue Maze robot (RoboCup)
 
 {% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
 
