@@ -42,7 +42,9 @@ gem install fusuma
 
 ## Configuring the Gestures
 
-In your home directory, go to the folder ``~/.config`` and create the folder ``Fusuma`` inside of it. Now you must create a file ``config.yml``, in which you will declare the shortcuts and gestures you want. After some tests, I found a group of gesture configurations that best switched for me and had a fluid, yet precise, movements. These are best setup I've found for ``config.yml``:
+In your home directory, go to the folder ``~/.config`` and create the folder ``fusuma`` inside of it. Now you must create a file ``config.yml``, in which you will declare the shortcuts and gestures you want. After some tests, I found a group of gesture configurations that best switched for me and had a fluid, yet precise, movements. These are best setup I've found for ``config.yml``:
+
+> The folder path must be all in lower case, as it is case sensitive (thanks Paulo Felipe for pointing it out).
 
 ### For Unity:
 
