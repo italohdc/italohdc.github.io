@@ -8,9 +8,9 @@ thumbnail: generic_iphone_homescreen_001.jpg
 
 Dear Android User,
 
-{% include image.html file="pexels-photo-267389.jpeg" float=true %}
-
 I’ve been an Android user for almost my entire smartphone usage life, but recently I’ve switched to an iPhone. The bigger difference I realized about iOS was not exactly about the apps being more polished, as some people point out (as there are cases in which Android apps seem to work better), but a difference in paradigm.
+
+{% include image.html file="pexels-photo-267389.jpeg" float=true description="iPhone Home Screen" %}
 
 While in the Android universe you’re free to change and modify the system as you intend, the restrictions imposed in iPhone devices, although in first glance give the impression of keeping you locked, it actually makes you less obsessed in tweaking your device and, thus, give you more time to focus on what’s important, being it online or offline (I’m talking as a power user).
 
