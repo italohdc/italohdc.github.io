@@ -45,8 +45,10 @@ $georgia: Georgia, serif;
 /*$verdana: Verdana, Geneva, sans-serif;*/
 $trebuchet: "Trebuchet MS", Helvetica, sans-serif;
 $palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$serif-font: $palatino;
-$sans-serif-font: $trebuchet;
+$montserrat: 'Montserrat', sans-serif;
+$oswald-font: 'Oswald', sans-serif;
+$sans-serif-font: $oswald-font; /*title*/
+$serif-font: $montserrat; /*text*/
 
 // Mobile breakpoints
 @mixin mobile {

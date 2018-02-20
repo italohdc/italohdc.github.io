@@ -20,6 +20,17 @@ permalink: /about/
 
 Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
+### 2017
+
+* **2nd Place** on AbbVie Hackathon
+* Lecture about IoT (Internet of Things) on BH-TEC
+
+{% include image.html file="about-me/2017-iot-talk-bhtec.jpg" float=true description="Lecture about IoT" %}
+
+In the Campus Party we developed a mockup of an app to help the citizens keep track of their medical appointments and were awarded the 2nd place on the AbbVie Hackathon.
+
+Taking place in the Technological Park of Belo Horizonte, I presented a lecture about some [low-cost platforms to develop to the Internet of Things](https://www.slideshare.net/ItaloLelis1/novas-plataformas-de-baixo-custo-para-a-internet-das-coisas). Amongst the presented topics: Raspberry Pi, ESP8266, MQTT, LORA Network, PlatformIO, Android Things.
+
 ### 2016
 
 * 9th Place on RoboCup Germany
@@ -61,4 +72,19 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
-{% include image.html file="about-me/2012-rc001.jpg" description="RoboCup 2012 - Mexico" %}
+---
+
+## Some of the projects I've worked
+
+### Rescue Maze robot (RoboCup)
+
+{% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
+
+A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
+
+- Igor Araujo
+- Joao Paulo Sandes Brito
+- Joao Pedro Rosada Canesin
+- Joao Pedro Vilas Boas Silva
+
+{% include thanksnote-rescueb.html %}
