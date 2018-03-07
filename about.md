@@ -53,7 +53,7 @@ We were **three-time champion** in consecutive years for the Rescue Maze on the 
 
 {% include image.html file="about-me/2014-febrace.jpg" float=true description="FEBRACE 2014" %}
 
-Taking place in São Paulo, we presented in the USP Science Fair an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
+Taking place in São Paulo, we presented in the USP Science Fair ([FEBRACE](http://2014.febrace.org.br/virtual/2014/ENG/19/)) an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
 
 In the RoboCup, we developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. To achieve the objective, the Tremaux algorithm was used.
 
