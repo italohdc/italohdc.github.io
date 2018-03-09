@@ -1,29 +1,59 @@
----
-layout: default
----
+--- layout: default --- {% include twitterTimeline.html %}
 
-{% include twitterTimeline.html %}
 
+<div class="page content-fadein">
+  <div class="entry">
+    <p>
+      <strong>#include “lelis.h”</strong>
+    </p>
+
+    <p>👨🏻&zwj;💻 Engineering Student @ UFMG</p>
+
+    <p>💡 Interested in Robotics, IoT, Machine Learning</p>
+
+    <p>📍 Belo Horizonte-MG, Brazil</p>
+
+    <p>📧
+      <a href="mailto:hello@italolelis.com">hello@italolelis.com</a>
+    </p>
+
+    {% include svg-icons.html %}
+
+    </p>
+    <!-- <p>Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions,
+      either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.</p> -->
+    <p>
+      <a href="https://italohdc.github.io/about">» Read more about me «</a>
+    </p>
+    <hr>
+  </div>
+</div>
 
 <div class="posts content-fadein">
-  <p class="header-sitemap"><a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p>
+  <p class="header-sitemap">
+    <a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p>
   {% for post in site.posts %}
   <article class="post">
-    
-    {% if post.lang == "pt_BR" %}<span class="tag-lang">PT BR</span>{% endif %}
-    <h1 class="posts-borderline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    {% if post.lang == "pt_BR" %}
+    <span class="tag-lang">PT BR</span>{% endif %}
+    <h1 class="posts-borderline">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
     <div class="date">{{ post.date | date: "%B %d, %Y" }}
       <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
     </div>
-    
+
     <div class="entry">
-      {% if post.thumbnail %}<div class="post-image-preview">
+      {% if post.thumbnail %}
+      <div class="post-image-preview">
         <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
-        </img></a></div>{% endif %}
-      {{ post.excerpt | strip_html | truncatewords: 50 }}
+          <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
+          </img>
+        </a>
+      </div>{% endif %} {{ post.excerpt | strip_html | truncatewords: 50 }}
     </div>
-    
+
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   </article>
   {% endfor %}
