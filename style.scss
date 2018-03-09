@@ -197,7 +197,7 @@ hr {
 .wrapper-masthead {
   margin-bottom: 50px;
   background-color: $masterColor;
-  background-image: url("images/master-color-background.jpg");
+  // background-image: url("images/master-color-background.jpg");
   
   @include mobile {
     margin-bottom: 30px;
