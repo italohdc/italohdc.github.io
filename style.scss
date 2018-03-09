@@ -399,14 +399,6 @@ nav {
   }
 }
 
-.posts-borderline {
-  border-top: 2px solid #bbb;
-
-  @include mobile {
-    border-top: 0;
-  }
-}
-
 .tag-lang {
   display: block;
   width: 65px;
@@ -442,7 +434,8 @@ nav {
 
 .post-image-preview img {
   max-height: 100px;
-  border-radius: 10%;
+  // border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
 }
 
 .entry {
