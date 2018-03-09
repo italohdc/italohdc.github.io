@@ -36,27 +36,38 @@ layout: default
   <!-- <p class="header-sitemap">
     <a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p> -->
   {% for post in site.posts %}
-  <article class="post">
+  <article>
     <hr>
+    
+    <!-- {% if post.lang == "pt_BR" %}
+    <span class="tag-lang">PT BR</span>{% endif %} -->
+    <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
+    <div class="post-preview">
 
-    {% if post.lang == "pt_BR" %}
-    <span class="tag-lang">PT BR</span>{% endif %}
-    <h1>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
-    <div class="date">{{ post.date | date: "%B %d, %Y" }}
-      <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
-    </div>
-
-    <div class="entry">
       {% if post.thumbnail %}
       <div class="post-image-preview">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
           </img>
         </a>
-      </div>{% endif %} {{ post.excerpt | strip_html | truncate: 150 }}
+      </div>
+      {% endif %}
+
+      <div class="post-text-preview">
+      <h1>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h1>
+      <div class="date">{{ post.date | date: "%B %d, %Y" }}
+        <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
+      </div>
+
+      <div>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+      </div>
+      </div>
+
     </div>
+  <!-- </a> -->
 
     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
   </article>
