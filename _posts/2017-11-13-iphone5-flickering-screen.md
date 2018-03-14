@@ -4,6 +4,7 @@ title:  "Dear Tim Cookie..."
 date:   2017-11-13 22:30:00 +0000
 lang:   en
 thumbnail: iphone5-ghost-screen.jpg
+hidden: true
 ---
 
 Since my first iPod Touch, I haven't been buying Apple products because they tend to be very expensive, but as a loyal fan of the brand, I got a used but barely new iPhone 5 (which only had a lot of scratch marks).

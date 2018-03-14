@@ -36,6 +36,7 @@ layout: default
   <!-- <p class="header-sitemap">
     <a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p> -->
   {% for post in site.posts %}
+  {% if post.hidden == !true  %}
   <article>
     <hr>
     
@@ -71,5 +72,6 @@ layout: default
 
     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
   </article>
+  {% endif %}
   {% endfor %}
 </div>
