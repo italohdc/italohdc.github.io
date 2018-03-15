@@ -12,9 +12,11 @@ $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $gray2: #bbb;
-$lightGray: #eee;
+// $lightGray: #eee;
+$lightGray:rgba($color: #fff, $alpha: 0.8);
 $lighterGray: #fafafa;
-$white: #fff;
+// $white: #fff;
+$white: rgba($color: #fff, $alpha: 0.9);
 
 // Custom colors
 //$githubColor: #24292e;
@@ -49,6 +51,8 @@ $montserrat: 'Montserrat', sans-serif;
 $oswald-font: 'Oswald', sans-serif;
 $sans-serif-font: $oswald-font; /*title*/
 $serif-font: $montserrat; /*text*/
+
+$header-title: $montserrat; /*text*/
 
 // Mobile breakpoints
 @mixin mobile {
