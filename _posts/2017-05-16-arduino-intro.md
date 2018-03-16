@@ -12,7 +12,7 @@ Que tal aprender um pouco mais sobre o manuseio e a utilização de um Arduino?
 
 O projeto **Arduino 101** visa transmitir alguns conhecimentos básicos sobre o manuseio, prototipagem e utilização de um Arduino.
 
-[>> Acessar site do **Arduino 101** <<](http://arduino.italolelis.com/)
+[>> Acessar site do **Arduino 101** <<](http://arduino.italolelis.com/){:.button}
 
 Trata-se de uma iniciativa sem fins lucrativos, distribuida sobre a [licença do MIT](https://github.com/italohdc/arduino-101/blob/master/LICENSE), criada como um projeto pessoal visando disseminar o conhecimento sobre a plataforma.
 
