@@ -6,7 +6,7 @@ permalink: /about/
 
 **\#include "lelis.h"**
 
-👨🏻‍💻 Engineering Student @ UFMG
+💻 Engineering Student @ UFMG
 
 💡 Interested in Robotics, IoT, Machine Learning
 
