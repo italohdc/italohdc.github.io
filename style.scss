@@ -345,12 +345,16 @@ nav {
   width: 24px;
   height: 24px;
   margin: -2px 0;
-  
+
   @include mobile {
     width: 24px;
     height: 24px;
     margin: -3px 0;
     padding: 2px 0;
+  }
+
+  &:hover {
+    opacity: 0.6;
   }
 }
 
@@ -509,6 +513,7 @@ nav {
   width: 100%;
   // max-height: 100px;
   border-radius: 2%;
+  
   @include mobile {
     overflow: hidden;
     // position: relative;
@@ -517,7 +522,11 @@ nav {
     width: 100%;
     margin: -30% 0;
     // height: 100%;
-  }  
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .entry {
@@ -621,7 +630,7 @@ footer {
     float: right;
     // position: absolute;
     width: 240px;
-    height: 720px;
+    height: 722px;
     // left: 50%;
     margin-left: 40px;
     margin-right: -140px;
