@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Touchpad Gestures in your Ubuntu Laptop"
+title:  "How to Setup Touchpad Gestures in your Ubuntu Laptop"
 date:   2017-09-24 22:30:00 +0000
 lang:   en
 thumbnail: macbook_pro-trackpad.jpg
