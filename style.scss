@@ -573,6 +573,8 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .image-right {
