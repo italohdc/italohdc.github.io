@@ -12,7 +12,7 @@ Graphical interfaces on computers work by discretizing an environment. For examp
 
 A similar thing happens when you're dealing with meshes, but instead of circles or lines, you're dealing with triangles in a 3D environment. **A multitude of triangles tangents to the mesh connects to one another to forge the desired mesh shape.** The more the triangles, the smoother and more similar to the original shape is the mesh.
 
-Sometimes when you're handling a mesh in Unity, it may look pixelated. One of the easiest ways to correct this is to increase the number of triangles on the mesh.
+Sometimes when you're handling a mesh in Unity, it may look sharp on the edges. One of the easiest ways to correct this is to increase the number of triangles on the mesh.
 
 When using this method (steps on how to reproduce it described below), you will get a result similar to this one:
 
