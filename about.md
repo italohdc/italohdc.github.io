@@ -6,19 +6,19 @@ permalink: /about/
 
 **\#include "lelis.h"**
 
-💻 Engineering Student @ UFMG
+{% include fa-icon.html id="desktop" add-class="fa-about" %} Engineering Student @ UFMG
 
-💡 Interested in Robotics, IoT, Machine Learning
+{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, IoT, Machine Learning
 
-📍 Belo Horizonte-MG, Brazil
+{% include fa-icon.html id="map-pin" add-class="fa-about" %} Belo Horizonte-MG, Brazil
 
-📧 [hello@italolelis.com](mailto:hello@italolelis.com)
+[{% include fa-icon.html id="envelope" add-class="fa-about" %} hello@italolelis.com](mailto:hello@italolelis.com)
 
 {% include svg-icons.html %}
 
 ---
 
-Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
+Undergraduate Engineering Student at the **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
 
 ### 2017
 
@@ -53,7 +53,7 @@ We were **three-time champion** in consecutive years for the Rescue Maze on the 
 
 {% include image.html file="about-me/2014-febrace.jpg" float=true description="FEBRACE 2014" %}
 
-Taking place in São Paulo, we presented in the USP Science Fair ([FEBRACE](http://2014.febrace.org.br/virtual/2014/ENG/19/)) an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
+Taking place in São Paulo, we presented in the USP Science Fair ([FEBRACE](https://www.youtube.com/watch?v=g7VL8v_2wdo)) an **Assistive Belt** intented to aid Visually Impaired people in their mobility. The device had three ultrasonics sensors to measure the environment and return haptic feedback to the user.
 
 In the RoboCup, we developed a robot capable of travelling a maze in the Rescue Maze competition and awarded the 3rd Place in the worldwide competition. To achieve the objective, the Tremaux algorithm was used.
 
@@ -74,7 +74,7 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 ---
 
-## Some of the projects I've worked
+## Some of the projects I've worked {% include fa-icon.html id="briefcase" %}
 
 ### Rescue Maze robot (RoboCup)
 
@@ -82,9 +82,10 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
 
-- Igor Araujo
+- Igor Araujo [{% include fa-icon.html id="address-card" %}](http://lattes.cnpq.br/5202609356103130)
 - Joao Paulo Sandes Brito
 - Joao Pedro Rosada Canesin
-- Joao Pedro Vilas Boas Silva
+- Joao Pedro Vilas Boas Silva [{% include fa-icon.html id="address-card" %}](https://github.com/joaopedrovbs)
+- Colegio Nossa Senhora de Fatima - Sacramentinas [{% include fa-icon.html id="university" %}](http://colegiosacramentinas.com.br/)
 
 {% include thanksnote-rescueb.html %}

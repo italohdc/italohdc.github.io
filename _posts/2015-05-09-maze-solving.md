@@ -16,15 +16,15 @@ The **A\* Search Algorithm** shows the best route to move from a point A to a po
 
 ## Source Code
 
-You can see the code and some more information about how to run it on Processing on the [GitHub Repository](https://github.com/italohdc/maze-solving).
+You can see the code and some more information about how to run it on Processing on the [GitHub Repository {% include brand-icon.html id="github-alt" %}](https://github.com/italohdc/maze-solving).
 
 ## Team
 
-Developed for the **[RoboCup](http://www.robocup.org/) Rescue Maze Competition**.
+Developed for the **[RoboCup Rescue Maze Competition {% include fa-icon.html id="trophy" %}](http://www.robocup.org/)**.
 
 Raptor B Team:
  - Italo Lelis de Carvalho
  - João Pedro Rosada Canesin
 
 Instructor:
- - Igor Araujo Dias Santos
+ - Igor Araujo Dias Santos [{% include fa-icon.html id="address-card" %}](http://lattes.cnpq.br/5202609356103130)

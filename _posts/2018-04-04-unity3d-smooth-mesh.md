@@ -103,6 +103,6 @@ To make the mesh smoother, you must tweak the options in the script.
 
 ---
 
-This article was written based on the project [**Unity Robot Teleoperation**](https://github.com/lucascoelhof/unity-robot-teleoperation).
+This article was written based on the project [**Unity Robot Teleoperation** {% include brand-icon.html id="github-alt" %}](https://github.com/lucascoelhof/unity-robot-teleoperation).
 
-Thanks to [Lucas C. Figueiredo](https://github.com/lucascoelhof) and [Luciano C. A. Pimenta](https://scholar.google.com.br/citations?user=jF9S_gMAAAAJ&hl=en) for making this project possible.
+Thanks to [Lucas C. Figueiredo {% include fa-icon.html id="address-card" %}](https://github.com/lucascoelhof) and [Luciano C. A. Pimenta {% include fa-icon.html id="address-card" %}](https://scholar.google.com.br/citations?user=jF9S_gMAAAAJ&hl=en) for making this project possible.

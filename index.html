@@ -6,19 +6,19 @@ layout: default
 
 
 <div class="posts content-fadein resume-box">
-  <div class="entry">
+  <div class="entry resume-index">
     <p>
       <strong>#include “lelis.h”</strong>
     </p>
 
-    <p>💻 Engineering Student @ UFMG</p>
+    <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
 
-    <p>💡 Interested in Robotics, IoT, Machine Learning</p>
+    <p>{% include fa-icon.html id="lightbulb" add-class="fa-index" %} Interested in Robotics, IoT, Machine Learning</p>
 
-    <p>📍 Belo Horizonte-MG, Brazil</p>
+    <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
 
-    <p>📧
-      <a href="mailto:hello@italolelis.com">hello@italolelis.com</a>
+    <p>
+      <a href="mailto:hello@italolelis.com">{% include fa-icon.html id="envelope" add-class="fa-index" %} hello@italolelis.com</a>
     </p>
 
     {% include svg-icons.html %}
@@ -27,7 +27,7 @@ layout: default
     <!-- <p>Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions,
       either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.</p> -->
     <p>
-      <a class="button" href="{{ site.baseurl }}/about">Read more about me</a>
+      <a class="button btn-more-about" href="{{ site.baseurl }}/about">{% include fa-icon.html id="address-card" %}<br> Read more about me</a>
     </p>
   </div>
 </div>

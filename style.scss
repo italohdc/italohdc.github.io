@@ -406,9 +406,44 @@ nav {
   }
 }
 
+.btn-more-about {
+  display: block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 20px auto 6px 49px;
+  @include mobile {
+    margin: 20px auto 6px auto;
+  }
+}
+
+//
+// .icons
+//
+
+.fa-index {
+  min-width: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fa-about {
+  min-width: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 //
 // .main
 //
+
+.resume-index {
+  margin: 0 auto 0 60px;
+  @include mobile {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
 .resume-box {
   font-size: 14px;

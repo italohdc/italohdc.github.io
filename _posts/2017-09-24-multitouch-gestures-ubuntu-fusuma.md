@@ -10,9 +10,9 @@ If you ever used a MacBook (or if you have a Windows 10 laptop with a compatible
 
 {% include image.html file="2017-09-24-multitouch-gestures-ubuntu-fusuma/mission-control-mac.gif" float=true description="Exposé Gesture on Mac" %}
 
-Unfortunately these gestures are not available by default on the major Linux distributions. But thanks to [Kohei Yamada](https://github.com/iberianpig), who developed the application [Fusuma](https://github.com/iberianpig/fusuma) in [Ruby](https://www.ruby-lang.org/en/) to recognize multitouch input on the trackpad on Linux, shortcuts can be easily configured to different gestures.
+Unfortunately these gestures are not available by default on the major Linux distributions. But thanks to [Kohei Yamada {% include fa-icon.html id="address-card" %}](https://github.com/iberianpig), who developed the application [Fusuma](https://github.com/iberianpig/fusuma) in [Ruby](https://www.ruby-lang.org/en/) to recognize multitouch input on the trackpad on Linux, shortcuts can be easily configured to different gestures.
 
-The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04.
+The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma {% include brand-icon.html id="github-alt" %}](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04.
 
 ## Installing Fusuma
 
