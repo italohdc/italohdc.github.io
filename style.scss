@@ -87,7 +87,8 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  transition: color 0.125s ease;
   &:hover, &:active {
     color: $gray;
   }
@@ -244,6 +245,7 @@ hr {
 }
 
 .masthead a {
+  transition: color 0.15s ease;   
     &:hover, &:active {
     // color: $gray2;
     color: rgba(255, 255, 255, 0.6);
@@ -318,7 +320,7 @@ nav {
   @include mobile {
     float: right;
     clear: both;
-    margin-top: 16px;
+    margin-top: 20px;
     display: flex;
     font-size: 18px;
     max-height: 40px;
@@ -332,17 +334,17 @@ nav {
     letter-spacing: 1px;
     
     @include mobile {
-      margin: 0 6px;
+      margin: 0 0 0 14px;
       background-color: rgba(0, 0, 0, 0.2);
       padding: 10px 10px;
-      border-radius: 20px;
+      border-radius: 6px;
       color: $white;
-      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
       outline:0;
-      &:hover, &:active {
-        background-color: rgba(0, 0, 0, 0.3);
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-      }
+      // &:hover, &:active {
+      //   background-color: rgba(0, 0, 0, 0.3);
+      //   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      // }
     }
   }
 
@@ -369,6 +371,7 @@ nav {
   width: 24px;
   height: 24px;
   margin: -2px 0;
+  transition: opacity 0.15s ease;  
 
   @include mobile {
     width: 24px;
@@ -396,7 +399,7 @@ nav {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
   color: rgba(0, 0, 0, 0.6);
   -webkit-tap-highlight-color: rgba(10, 48, 80, 0.22);
-
+  
   &:hover {
     background-color: rgba(10, 48, 80, 0.15);
   }
@@ -411,7 +414,10 @@ nav {
   width: 200px;
   height: 50px;
   text-align: center;
-  margin: 20px auto 6px 49px;
+  margin: 20px auto 6px 48px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.2s ease;
   @include mobile {
     margin: 20px auto 6px auto;
   }
@@ -577,6 +583,7 @@ nav {
   // max-height: 100px;
   border-radius: 2%;
   opacity: 0.95;
+  transition: opacity 0.18s ease;
   
   @include mobile {
     overflow: hidden;

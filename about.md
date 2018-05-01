@@ -12,7 +12,7 @@ permalink: /about/
 
 {% include fa-icon.html id="map-pin" add-class="fa-about" %} Belo Horizonte-MG, Brazil
 
-[{% include fa-icon.html id="envelope" add-class="fa-about" %} hello@italolelis.com](mailto:hello@italolelis.com)
+{% include fa-icon.html id="envelope" add-class="fa-about" %} [hello@italolelis.com](mailto:hello@italolelis.com)
 
 {% include svg-icons.html %}
 
