@@ -2,6 +2,7 @@
 layout: post
 title:  "How to Setup Touchpad Gestures in your Ubuntu Laptop"
 date:   2017-09-24 22:30:00 +0000
+updated:   2018-06-01 10:30:00 +0000
 lang:   en
 thumbnail: macbook_pro-trackpad.jpg
 ---
@@ -12,7 +13,9 @@ If you ever used a MacBook (or if you have a Windows 10 laptop with a compatible
 
 Unfortunately these gestures are not available by default on the major Linux distributions. But thanks to [Kohei Yamada {% include fa-icon.html id="address-card" %}](https://github.com/iberianpig), who developed the application [Fusuma](https://github.com/iberianpig/fusuma) in [Ruby](https://www.ruby-lang.org/en/) to recognize multitouch input on the trackpad on Linux, shortcuts can be easily configured to different gestures.
 
-The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma {% include brand-icon.html id="github-alt" %}](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04.
+The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma {% include brand-icon.html id="github-alt" %}](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04 (it also works on Ubuntu 18.04, but you may find some issues if you're using Wayland instead of Xorg).
+
+Fusuma also work in some others Ubuntu-Based distros, like Elementary OS.
 
 ## Installing Fusuma
 
@@ -44,7 +47,7 @@ gem install fusuma
 
 In your home directory, go to the folder ``~/.config`` and create the folder ``fusuma`` inside of it. Now you must create a file ``config.yml``, in which you will declare the shortcuts and gestures you want. After some tests, I found a group of gesture configurations that best switched for me and had a fluid, yet precise, movements. These are best setup I've found for ``config.yml``:
 
-> The folder path must be all in lower case, as it is case sensitive (thanks Paulo Felipe for pointing it out).
+> The folder path must be all in lower case, as it is case sensitive.
 
 ### For Unity:
 
@@ -52,27 +55,27 @@ In your home directory, go to the folder ``~/.config`` and create the folder ``f
 swipe:
   3: 
     left: 
-      shortcut: 'alt+Right'
+      command: 'xdotool key alt+Right'
     right: 
-      shortcut: 'alt+Left'
+      command: 'xdotool key alt+Left'
     up: 
-      shortcut: 'super+w'
+      command: 'xdotool key super+w'
     down: 
-      shortcut: 'Escape'
+      command: 'xdotool key Escape'
   4:
     left: 
-      shortcut: 'ctrl+alt+Right'
+      command: 'xdotool key ctrl+alt+Right'
     right: 
-      shortcut: 'ctrl+alt+Left'
+      command: 'xdotool key ctrl+alt+Left'
     up: 
-      shortcut: 'ctrl+alt+Down'
+      command: 'xdotool key ctrl+alt+Down'
     down: 
-      shortcut: 'ctrl+alt+Up'
+      command: 'xdotool key ctrl+alt+Up'
 pinch:
   in:
-    shortcut: 'ctrl+plus'
+    command: 'xdotool key ctrl+plus'
   out:
-     shortcut: 'ctrl+minus'
+     command: 'xdotool key ctrl+minus'
 
 threshold:
   swipe: 0.4
@@ -102,6 +105,8 @@ These are the gestures and respective actions:
 | 4 Fingers - Up    | Desktop Down       |
 | 4 Fingers - Down  | Desktop Up         |
 
+> If you get a error message about the touchpad input and want to test if fusuma is working before restarting your computer, you can run it as a superuser: ``sudo fusuma``.
+
 ---
 
 ### For GNOME:
@@ -110,27 +115,27 @@ These are the gestures and respective actions:
 swipe:
   3: 
     left: 
-      shortcut: 'alt+Right'
+      command: 'xdotool key alt+Right'
     right: 
-      shortcut: 'alt+Left'
+      command: 'xdotool key alt+Left'
     up: 
-      shortcut: 'super'
+      command: 'xdotool key super'
     down: 
-      shortcut: 'super'
+      command: 'xdotool key super'
   4:
     left: 
-      shortcut: 'ctrl+alt+Down'
+      command: 'xdotool key ctrl+alt+Down'
     right: 
-      shortcut: 'ctrl+alt+Up'
+      command: 'xdotool key ctrl+alt+Up'
     up: 
-      shortcut: 'ctrl+alt+Down'
+      command: 'xdotool key ctrl+alt+Down'
     down: 
-      shortcut: 'ctrl+alt+Up'
+      command: 'xdotool key ctrl+alt+Up'
 pinch:
   in:
-    shortcut: 'ctrl+plus'
+    command: 'xdotool key ctrl+plus'
   out:
-     shortcut: 'ctrl+minus'
+     command: 'xdotool key ctrl+minus'
 
 threshold:
   swipe: 0.4
@@ -167,6 +172,8 @@ gsettings set org.gnome.desktop.peripherals.touchpad send-events enabled
 ```
 
 Logout and login back for the changes to take effect and run Fusuma again.
+
+> If you get a error message about the touchpad input and want to test if fusuma is working before restarting your computer, you can run it as a superuser: ``sudo fusuma``. 
 
 ## Launch Fusuma on Startup
 
