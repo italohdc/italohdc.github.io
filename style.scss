@@ -94,7 +94,7 @@ a {
   cursor: pointer;
   transition: color 0.125s ease;
   &:hover, &:active {
-    color: $gray;
+    color: rgba(20, 20, 20, 0.9);
   }
 }
 
@@ -162,6 +162,16 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+sup { 
+  vertical-align: super;
+  font-size: smaller;
+}
+
+small { 
+  vertical-align: center;
+  font-size: smaller;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -682,6 +692,12 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.open-new-window {
+  text-align: right;
+  font-size: 14px;
+  margin: 0 6px;
 }
 
 footer {
