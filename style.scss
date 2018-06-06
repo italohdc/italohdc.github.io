@@ -29,13 +29,13 @@ body {
 }
 
 .container-main {
-  font: 18px/1.4 $serif-font/*$helvetica*/;
-  color: $gray/*$darkGray*/;
+  font: 18px/1.4 $text-font;
+  color: $gray;
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  padding-top: 140px;
+  padding-top: 120px;
 
   @include mobile {
     padding-top: 0;
@@ -43,16 +43,16 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $sans-serif-font;
+  font-family: $title-font;
   color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.2;
-  margin-bottom: 1em 0 2px;
-  /*margin-top: 1em 0 24px;*/
-  margin-top: 24px;
-  margin-right: 1em 0 15px;
-  margin-left: 1em 0 15px;
+  margin-bottom: 0.6em;
+  margin-top: 1.5em;
+  // margin-top: 24px;
+  // margin-right: 1em;
+  // margin-left: -0.4em;
   padding: 0;
 
   @include mobile {
@@ -69,6 +69,10 @@ h1 {
 
 h2 {
   font-size: 24px;
+  margin-left: -0.4em;
+  @include mobile {
+    margin-left: 0;
+  }
 }
 
 h3 {
@@ -166,7 +170,7 @@ hr {
 }
 
 .date {
-  font-family: $sans-serif-font;
+  font-family: $title-font;
   font-style: bold;
   color: $darkGray;
 }
@@ -387,7 +391,7 @@ nav {
 }
 
 .header-sitemap {
-  font-family: $sans-serif-font;
+  font-family: $title-font;
   font-size: 12px;
   margin-bottom: 32px;
 }
@@ -481,7 +485,7 @@ nav {
     padding: 0.1em 1em;
     color: $gray;
     font-size: 18px;
-    font-family: $helveticaNeue;
+    font-family: $title-font;
     font-style: italic;
     
     @include big-screen {
@@ -501,7 +505,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-family: $sans-serif-font;
+    font-family: $title-font;
     font-size: 15px;
   }
 }
@@ -510,7 +514,7 @@ nav {
   display: block;
   width: 65px;
   background-color: #eee;
-  font-family: $sans-serif-font;
+  font-family: $title-font;
   text-align: center;
   font-size: 14px;
   color: #666;
@@ -655,7 +659,7 @@ nav {
 
 .post-caption {
   text-align: center;
-  font-family: $serif-font;
+  font-family: $title-font;
   font-size: 16px;
   font-style: italic;
 }
@@ -684,7 +688,7 @@ footer {
   padding: 2px 0;
   margin: 30px 0 10px 0;
   text-align: center;
-  font-family: $sans-serif-font;
+  font-family: $title-font;
   // color: $gray2;
   color: #444;
 }

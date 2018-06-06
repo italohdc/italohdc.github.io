@@ -41,18 +41,23 @@ $masterColor: #2b749f;
 */
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// $helvetica: Helvetica, Arial, sans-serif;
+// $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $georgia: Georgia, serif;
 /*$verdana: Verdana, Geneva, sans-serif;*/
-$trebuchet: "Trebuchet MS", Helvetica, sans-serif;
-$palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+// $trebuchet: "Trebuchet MS", Helvetica, sans-serif;
+// $palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $montserrat: 'Montserrat', sans-serif;
-$oswald-font: 'Oswald', sans-serif;
-$sans-serif-font: $montserrat; //$oswald-font; /*title*/
-$serif-font: $montserrat; /*text*/
+// $oswald-font: 'Oswald', sans-serif;
+// $archivo-font: 'Archivo', sans-serif;
+$rubik-font: 'Rubik', sans-serif;
+// $sans-serif-font: $rubik-font; //$oswald-font; /*title*/
+// $serif-font: $rubik-font; /*text*/
 
 $header-title: $montserrat; /*text*/
+
+$title-font: $rubik-font; /*text*/
+$text-font: $rubik-font; /*text*/
 
 // Mobile breakpoints
 @mixin mobile {
