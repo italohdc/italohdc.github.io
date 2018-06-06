@@ -152,11 +152,12 @@ td {
 }
 
 hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 32px;
   margin-bottom: 32px;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -475,7 +476,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 4px solid $gray;
+    border-left: 4px solid rgba(180, 180, 180, 0.6);
     margin-left: 0px;
     padding: 0.1em 1em;
     color: $gray;
@@ -537,6 +538,18 @@ nav {
   }
 }
 
+.post-title-preview {
+  font-size: 24px;
+  @include mobile {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.post-summary-preview {
+  font-size: 16px;
+}
+
 .post-text-preview {
   display: block;
   padding: 0;
@@ -565,12 +578,13 @@ nav {
   // padding: 4px;
   // position: absolute;
   @include mobile {
-    margin: auto;
+    margin: auto auto 8px auto;
     display: block;
     // position: unset;
     max-width: 100%;
     max-height: 100%;
     width: 100%;
+    border-radius: 4px;
     // height: 20px;
     // margin: -25px 0;
     // float: left;

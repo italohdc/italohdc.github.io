@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "I'm an Android user and have been for a number of years. What can you say to convince me to switch to iOS?"
+title:  "What can you say to convince me to switch to iOS?"
+summary: Dear Android User...
 date:   2018-02-20 9:00:00 +0000
 lang:   en
 thumbnail: generic_iphone_homescreen_001.jpg
