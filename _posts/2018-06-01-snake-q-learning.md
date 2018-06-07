@@ -19,7 +19,7 @@ This is a implementation of an Artificial Intelligence fully written in **Javasc
   </div>
 </div>
 
-- **Learning Rate**: How aggressive the AI will learn to play (close to 0 will be too slow, close to 1 will simply replace the old learned value with the new). _Not necessarily higher is better_
+- **Learning Rate**: How aggressive the AI will learn to play (close to 0 will be too slow, close to 1 will simply replace the old learned value with the new). _Higher is not necessarily better_
 
 - **Discount Factor**: Importance between immediate rewards and future rewards
 
@@ -77,7 +77,7 @@ The new Q-Table value for the action accomplished is given by this formula (take
 
 {% include image.html file="snake-q-learning/update-q-value.png" %}
 
-It's executed after the action is taken and the reward is know.
+It's executed after the action is taken and the reward is known.
 
 #### Actions
 
@@ -94,11 +94,14 @@ The only reward is given when the **snake grabs the fruit** ( **+1** ). I tried 
 
 The penalty happens whenever the **game resets** ( **-1** ), that is, the snake hits its tail or a wall.
 
+If anything else happens, there's no reward ( 0 ).
+
 | Action | Reward |
 |-----------------|----|
 | Catch the Fruit | + 1 |
 | Hits tail | - 1 |
 | Hits wall | - 1 |
+| Else | 0 |
 
 #### States
 
