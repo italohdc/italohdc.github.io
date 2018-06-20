@@ -78,7 +78,7 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 ### Rescue Maze robot (RoboCup)
 
-{% include youtubePlayer.html id="0xHdz2xT8Wo?showinfo=0" %}
+{% include youtubePlayer.html id="5eA4DgghYRI?loop=1&playlist=Wu9DYnvc1BU,0xHdz2xT8Wo" %}
 
 A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
 
