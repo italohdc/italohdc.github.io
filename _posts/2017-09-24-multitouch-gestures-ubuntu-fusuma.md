@@ -17,17 +17,6 @@ The following tutorial, based on the [_README_](https://github.com/iberianpig/fu
 
 Fusuma also work in some others Ubuntu-Based distros, like Elementary OS.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-3325139456525273"
-     data-ad-slot="8807172936"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Installing Fusuma
 
 First of all, your user must be a member of the _input_ group, so the application can read the touchpad inputs. If your user isn't a member, or if you don't know what it means, run the following command in the terminal:
