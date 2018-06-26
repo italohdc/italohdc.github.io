@@ -19,7 +19,7 @@ This is a implementation of an Artificial Intelligence fully written in **Javasc
   </div>
 </div>
 
-- **Learning Rate**: How aggressive the AI will learn to play (close to 0 will be too slow, close to 1 will simply replace the old learned value with the new). _Higher is not necessarily better_
+- **Learning Rate**: How aggressive the AI will learn to play (close to 0 will be too slow, while close to 1 will simply replace the old learned value with the new one). _Higher is not necessarily better_
 
 - **Discount Factor**: Importance between immediate rewards and future rewards
 

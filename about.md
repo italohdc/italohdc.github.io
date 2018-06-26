@@ -37,7 +37,7 @@ Taking place in the Technological Park of Belo Horizonte, I presented a lecture 
 
 {% include image.html file="about-me/2016-rc001.jpg" float=true description="RoboCup 2016 - Germany" %}
 
-For the **Rescue Maze** competition, we developed a robot capable of travelling a maze and returning, in an optimal way, to its original point. For that, was used **Tremaux** to explore the labirinth and [**A* Algorithm**](https://italohdc.github.io/posts/maze-solving) to compute the optimal way.
+For the [**Rescue Maze**](https://italohdc.github.io/posts/maze-solving) competition, we developed a robot capable of travelling a maze and returning, in an optimal way, to its original point. For that, was used **Tremaux** to explore the labirinth and [**A* Algorithm**](https://italohdc.github.io/posts/maze-solving) to compute the optimal way.
 
 ### 2015
 
@@ -78,14 +78,6 @@ In Mexico, we participated in a competition in which we should develop a robot c
 
 ### Rescue Maze robot (RoboCup)
 
-{% include youtubePlayer.html id="5eA4DgghYRI?loop=1&playlist=Wu9DYnvc1BU,0xHdz2xT8Wo" %}
+{% include youtubePlayer.html id="Wu9DYnvc1BU?loop=1&playlist=5eA4DgghYRI,0xHdz2xT8Wo" %}
 
-A special thanks for all the effort, hard work and nights awake working on this project, making it possible:
-
-- Igor Araujo [{% include fa-icon.html id="address-card" %}](http://lattes.cnpq.br/5202609356103130)
-- Joao Paulo Sandes Brito
-- Joao Pedro Rosada Canesin
-- Joao Pedro Vilas Boas Silva [{% include fa-icon.html id="address-card" %}](https://github.com/joaopedrovbs)
-- Colegio Nossa Senhora de Fatima - Sacramentinas [{% include fa-icon.html id="university" %}](http://colegiosacramentinas.com.br/)
-
-{% include thanksnote-rescueb.html %}
+[- More -](https://italohdc.github.io/posts/maze-solving)
