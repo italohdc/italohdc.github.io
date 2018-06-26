@@ -13,6 +13,10 @@ If you ever used a MacBook (or if you have a Windows 10 laptop with a compatible
 
 Unfortunately these gestures are not available by default on the major Linux distributions. But thanks to [Kohei Yamada {% include fa-icon.html id="address-card" %}](https://github.com/iberianpig), who developed the application [Fusuma](https://github.com/iberianpig/fusuma) in [Ruby](https://www.ruby-lang.org/en/) to recognize multitouch input on the trackpad on Linux, shortcuts can be easily configured to different gestures.
 
+The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma {% include brand-icon.html id="github-alt" %}](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04 (it also works on Ubuntu 18.04, but you may find some issues if you're using Wayland instead of Xorg).
+
+Fusuma also work in some others Ubuntu-Based distros, like Elementary OS.
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -23,10 +27,6 @@ Unfortunately these gestures are not available by default on the major Linux dis
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-The following tutorial, based on the [_README_](https://github.com/iberianpig/fusuma/blob/master/README.md) of the [Fusuma {% include brand-icon.html id="github-alt" %}](https://github.com/iberianpig/fusuma) project, will teach how to setup the environment for **Unity** and **GNOME** in Ubuntu 16.04 (it also works on Ubuntu 18.04, but you may find some issues if you're using Wayland instead of Xorg).
-
-Fusuma also work in some others Ubuntu-Based distros, like Elementary OS.
 
 ## Installing Fusuma
 
