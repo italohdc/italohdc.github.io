@@ -2,6 +2,7 @@
 layout: post
 title:  "Configurar uma Raspberry Pi Zero W sem monitor"
 date:   2017-09-11 07:32:02 +0000
+updated:   2018-07-04 10:30:00 +0000
 lang:   pt_BR
 thumbnail: raspberrypi0w.jpg
 ---
@@ -83,6 +84,11 @@ Entre com esse _hostname_ no Putty para conectar à sua Raspberry Pi.
 {% include image.html file="2017-09-08-configurar-rasp0-sem-monitor/putty-001.png" description="Putty" %}
 
 Se tudo ocorrer corretamente, aparecerá uma janela pedindo as informações de login e senha para acessar o sistema operacional da Raspberry. O usuário padrão é ``pi`` e a senha é ``raspberry``.
+
+```
+usuário: pi
+senha: raspberry
+```
 
 ---
 
