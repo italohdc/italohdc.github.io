@@ -43,6 +43,10 @@ wpa_supplicant.conf
 Edite o arquivo criado e adicione os seguintes parâmetros:
 
 ```
+country=BR
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
 network={
     ssid="SSID"
     psk="PASSWORD"
@@ -51,6 +55,8 @@ network={
 ```
 
 Lembrando de substituir ``SSID`` pelo nome da sua rede Wi-Fi e ``PASSWORD`` pela senha da sua rede Wi-Fi. O parâmetro ``key_mgmt`` refere-se ao protocolo de segurança utilizado pela rede.
+
+> Caso você não esteja no Brasil, modifique o ``BR`` em ``country=BR`` para o código de duas letras do seu país.
 
 ### Ativando SSH
 
