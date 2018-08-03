@@ -7,8 +7,10 @@ layout: default
 
     <div class="banner-content">
       <div></div>
-      <p>HI, I'M ITALO</p>
-      <p>and I code for fun!</p>
+      <div class="banner-title">HEY, I'M ITALO!</div>
+      <div class="banner-info1">
+        <p>I am a tech enthusiast who loves  and codes for fun!</p>
+      </div>
       <div class="banner-info2">
         <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
         <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
@@ -24,42 +26,14 @@ layout: default
 
 {% include twitterTimeline.html %}
 
-
-<div class="posts content-fadein resume-box">
-  <div class="entry resume-index">
-    <p>
-      <strong>#include “lelis.h”</strong>
-    </p>
-
-    <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
-
-    <p>{% include fa-icon.html id="lightbulb" add-class="fa-index" %} Interested in Robotics, IoT, Machine Learning</p>
-
-    <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
-
-    <p>
-      {% include fa-icon.html id="envelope" add-class="fa-index" %} <a href="mailto:hello@italolelis.com">hello@italolelis.com</a>
-    </p>
-
-    {% include svg-icons.html %}
-
-    </p>
-    <!-- <p>Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), competed in several robotics competitions,
-      either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.</p> -->
-    <p>
-      <a class="button btn-more-about" href="{{ site.baseurl }}/about">{% include fa-icon.html id="address-card" %}<br> Read more about me</a>
-    </p>
-  </div>
-</div>
-
 <div class="posts content-fadein">
+  <h2 style="font-variant: small-caps">read my blog</h2>
   <!-- <p class="header-sitemap">
     <a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p> -->
   {% for post in site.posts %}
   {% if post.hidden == !true  %}
   <article>
     <hr>
-    
     <!-- {% if post.lang == "pt_BR" %}
     <span class="tag-lang">PT BR</span>{% endif %} -->
     <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
