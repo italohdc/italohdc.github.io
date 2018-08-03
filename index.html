@@ -2,6 +2,26 @@
 layout: default
 ---
 
+<div id="index-banner">
+  <div class="banner-container">
+
+    <div class="banner-content">
+      <div></div>
+      <p>HI, I'M ITALO</p>
+      <p>and I code for fun!</p>
+      <div class="banner-info2">
+        <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
+        <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
+      </div>
+      <a class="banner-btn" href="{{ site.baseurl }}/about">LEARN MORE</a>
+      <div></div>
+    </div>
+
+  </div>
+</div>
+
+<div id="main" role="main" class="container-main">
+
 {% include twitterTimeline.html %}
 
 
@@ -80,4 +100,6 @@ layout: default
   </article>
   {% endif %}
   {% endfor %}
+</div>
+
 </div>
