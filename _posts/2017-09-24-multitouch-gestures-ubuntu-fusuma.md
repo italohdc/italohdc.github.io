@@ -5,6 +5,8 @@ date:   2017-09-24 22:30:00 +0000
 updated:   2018-06-01 10:30:00 +0000
 lang:   en
 thumbnail: macbook_pro-trackpad.jpg
+banner: person-using-touchpad.jpg
+banner-credits: Photo by Sergey Zolkin on Unsplash
 ---
 
 If you ever used a MacBook (or if you have a Windows 10 laptop with a compatible touchpad), you know how pleasant and useful can be the trackpad gestures to change desktops, show all open windows and pinch-to-zoom. Beyond the visual effects, these tools are more intuitive than a keyboard shortcut and thus can improve our productivity.
