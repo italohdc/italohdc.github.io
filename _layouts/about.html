@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div id="about-banner">
+  <div class="banner-container">
+
+    <div class="banner-content">
+      <div></div>
+      <div class="banner-title">About Me</div>
+      <div class="banner-info1">
+        <p>I'm a tech enthusiast who loves to explore new solutions to old problems and who codes for fun!</p>
+      </div>
+      <div class="banner-info2">
+        <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
+        <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
+        <p>{% include fa-icon.html id="envelope" add-class="fa-about" %} <a href="mailto:hello@italolelis.com">hello@italolelis.com</a></p>
+      </div>
+      <div>{% include svg-icons.html %}</div>
+    </div>
+
+  </div>
+</div>
+
+<div id="main" role="main" class="container-main">
+
+<article class="page content-fadein">
+
+  <!-- <h1>{{ page.title }}</h1> -->
+
+  <div class="entry">
+    {{ content }}
+  </div>
+</article>
+
+</div>

@@ -1,24 +1,21 @@
 ---
-layout: page
+layout: about
 title: About Me
 permalink: /about/
 ---
 
-**\#include "lelis.h"**
+Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
-{% include fa-icon.html id="desktop" add-class="fa-about" %} Engineering Student @ UFMG
+Participation in **international robotics competitions** (LARC and RoboCup), acting mainly in the development of autonomous robots, microcontroller programming and prototyping circuits.
 
-{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, IoT, Machine Learning
+Experience as a **Scientific Initiation Scholar** in the field of **cooperative robotics**.
 
-{% include fa-icon.html id="map-pin" add-class="fa-about" %} Belo Horizonte-MG, Brazil
-
-{% include fa-icon.html id="envelope" add-class="fa-about" %} [hello@italolelis.com](mailto:hello@italolelis.com)
-
-{% include svg-icons.html %}
+{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, Machine Learning, AI...
 
 ---
 
-Undergraduate Engineering Student at the **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)), competed in several robotics competitions, either national and international. Devoted to programming, is learning about Artificial Inteligence and Applied Robotics.
+{% include fa-icon.html id="plane" add-class="fa-about" %} I just travelled the world with my robots, always trying to escape an endless maze, and for that I've earned some trophies...
+
 
 ### 2017
 
