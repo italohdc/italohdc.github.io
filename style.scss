@@ -183,6 +183,11 @@ small {
   font-family: $title-font;
   font-style: bold;
   color: $darkGray;
+
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 // Specify the color of the selection
@@ -570,6 +575,11 @@ nav {
     margin-top: 2px;
     margin-bottom: 4px;
   }
+
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .post-text-preview {
@@ -900,7 +910,7 @@ footer {
     border-radius: 6px;
     // text-shadow: 0px;
   
-    transition: background-color 0.12s, color 0.12s;
+    transition: background-color 0.18s, color 0.12s;
 
     @include mobile {
       background-color: #eee;
@@ -918,12 +928,17 @@ footer {
   background-color: $bannerColor;
   background-image: url(/images/grain.png);
   // height: 600px;
+  margin-bottom: 40px;
   box-shadow: rgba(80, 80, 80, 0.4) 0px 3px 3px;
-
+  
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  
+  @include mobile {
+    margin-bottom: 20px;
+  }
 
   .banner-container {
     margin: 0 auto;
@@ -1003,7 +1018,7 @@ footer {
 #about-social {
   margin: 0 auto;
   width: fit-content;
-  background-color: white;
+  background-color: #eee;
   padding: 4px 6px;
   border-radius: 100px;
 }
