@@ -10,6 +10,7 @@ permalink: /about/
 
 ---
 
+
 Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
 Participation in **international robotics competitions** (LARC and RoboCup), acting mainly in the development of autonomous robots, microcontroller programming and prototyping circuits.
