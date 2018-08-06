@@ -925,7 +925,7 @@ footer {
     letter-spacing: 1px;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 3px;
 
-    margin-top: 16px;
+    margin-top: 0;
     margin-bottom: 12px;
   }
 
@@ -1031,7 +1031,7 @@ footer {
     font-variant: small-caps;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 3px;
 
-    margin-top: 16px;
+    margin-top: 0;
     margin-bottom: 12px;
   }
 
@@ -1092,11 +1092,15 @@ footer {
   flex-wrap: wrap;
 }
 
+.about-card-external-container {
+  margin: auto;
+}
+
 .about-card {
 
   display: flex;
   flex-direction: column;
-  margin: auto 20px;
+  margin: 20px 20px;
   text-align: center;
   // border-radius: 4px;
 
@@ -1106,6 +1110,10 @@ footer {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  
+  @include mobile {
+    max-width: 100%;
+  }
   
   .about-card-container {
     background-image: url(/images/grain.png);
@@ -1137,7 +1145,7 @@ footer {
   }
   
   .about-card-image {
-    margin: 16px 0 0 0;
+    margin: 0;
     border: #ddd solid 1px;
     border-radius: 4px 4px 0px 0px;
     width: 100%;
