@@ -1141,6 +1141,13 @@ footer {
     border: #ddd solid 1px;
     border-radius: 4px 4px 0px 0px;
     width: 100%;
+
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
   
   .about-card-title {
