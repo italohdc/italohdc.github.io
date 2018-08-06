@@ -1,7 +1,18 @@
 <div class="author-description">
 
-<a href="{{ site.baseurl }}/about/"><h3>Italo Lelis {% include fa-icon.html id="address-card" %}</h3></a>
-<p>Undergraduate Engineering Student at the Federal University of Minas Gerais (UFMG), is learning about Artificial Inteligence and Applied Robotics.</p>
-{% include svg-icons.html %}
+    <div class="author-description-container">
+
+        <h3 class="author-description-title">ITALO LELIS</h3>
+        <p class="author-description-info1">I'm a tech enthusiast who loves to explore new solutions to old problems and who codes for fun!</p>
+        <div class="author-description-info2">
+            <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
+            <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
+        </div>
+        <div class="author-description-info3">Follow me:</div>
+        {% include svg-icons.html %}
+
+    </div>
+
+    <a href="{{ site.baseurl }}/about" class="author-description-learn-more">Learn More ></a>
 
 </div>

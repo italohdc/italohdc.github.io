@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   // margin-right: 1em;
   // margin-left: -0.4em;
   padding: 0;
-
+  
   @include mobile {
     line-height: 1.0;
   }
@@ -64,6 +64,10 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
+  }
+  
+  @include mobile {
+    margin-top: 0.8em;
   }
 }
 
@@ -728,19 +732,72 @@ footer {
 }
 
 .author-description {
-  padding: 2px 12px 16px 12px;
-  margin: 24px 0;
-  border-radius: 3px;
-  background-color: $lightGray;
-  clear: both;
+
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  text-align: center;
+  // border-radius: 4px;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  
+  .author-description-container {
+    background-image: url(/images/grain.png);
+    background-color: $lightGray;
+    padding: 2px 12px 16px 12px;
+    border: #ddd solid 1px;
+    border-radius: 4px 4px 0px 0px;
+    clear: both;
+    margin: 0;
+  }
+  
+  .author-description-learn-more {
+    background-image: url(/images/grain.png);
+    background-color: rgba(200, 200, 200, 0.6);
+    border-radius: 0px 0px 4px 4px;
+    border: #ddd solid 1px;
+    border-top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 16px;
+    font-size: 18px;
+    color: #444;
+    transition: background-color 0.16s, color 0.16s;
+    
+    &:hover {
+      background-color: rgba(200, 200, 200, 0.8);
+      color: #333;
+    }
+  }
+
+  .author-description-title {
+    letter-spacing: 1px;
+    font-variant: small-caps;
+  }
+
+  .author-description-info1 {
+    font-size: 16px;
+    padding: 0 24px;
+  }
+  .author-description-info2 {
+    font-size: 14px;
+    margin: 12px 0 16px 0;
+    color: #999;
+    p {
+      margin: 2px 10px;
+    }
+  }
+  .author-description-info3 {
+    font-size: 12px;
+    margin: 12px 0 6px 4px;
+  }
 
   h3 {
     margin-top: 12px;
     font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
   }
 }
 
@@ -916,6 +973,7 @@ footer {
     @include mobile {
       background-color: #eee;
       color: $bannerColor;
+      box-shadow: rgba(60, 60, 60, 0.6) 0px 0px 6px;
     }
   
     &:hover {
@@ -1016,7 +1074,7 @@ footer {
   }
 }
 
-#about-social {
+.about-social {
   margin: 0 auto;
   width: fit-content;
   background-color: #eee;
