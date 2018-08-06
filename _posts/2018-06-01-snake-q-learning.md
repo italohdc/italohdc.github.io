@@ -6,6 +6,7 @@ date:   2018-06-06 10:00:00 +0000
 lang:   en
 thumbnail: snake.gif
 permalink: snake
+banner: banner-learn-snake.jpg
 ---
 
 This is a implementation of an Artificial Intelligence fully written in **Javascript** that learns to play Snake using **Reinforcement Learning**.

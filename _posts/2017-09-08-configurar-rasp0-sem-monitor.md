@@ -5,6 +5,8 @@ date:   2017-09-11 07:32:02 +0000
 updated:   2018-07-04 10:30:00 +0000
 lang:   pt_BR
 thumbnail: raspberrypi0w.jpg
+banner: raspberry-pi-stacked.jpg
+banner-credits: Photo by Craig Dennis from Pexels
 ---
 
 A Raspberry Pi Zero W é um computador com menos de 3 polegadas e que custa aproximadamente $10. O seu tamanho reduzido, a presença de conexão Wi-Fi e Bluetooth, além do fato de conseguir rodar um sistema operacional Linux, o torna ideal para a criação de pequenos servidores, projetos que utilizam linguagens de alto nível (como Python e JavaScript) ou o controle/leitura de dispositivos eletrônicos (possui 36 portas GPIO).

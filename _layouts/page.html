@@ -2,7 +2,16 @@
 layout: default
 ---
 
+{% if page.banner %}
+<div id="post-banner" style="background-image: url(/images/banners/{{ page.banner }})">
+  <div class="banner-post-container">
+    {% if page.banner-credits %}
+    <div class="banner-small-text">{{ page.banner-credits }}</div>{% endif %}
+  </div>
+</div>
+{% else %}
 <div id="no-banner"></div>
+{% endif %}
 
 <div id="main" role="main" class="container-main">
 

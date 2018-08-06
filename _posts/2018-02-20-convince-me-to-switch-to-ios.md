@@ -5,6 +5,8 @@ summary: Dear Android User...
 date:   2018-02-20 9:00:00 +0000
 lang:   en
 thumbnail: generic_iphone_homescreen_001.jpg
+banner: iphone-on-blue-background.jpg
+banner-credits: Photo by Juja Han on Unsplash
 ---
 
 Dear Android User,
