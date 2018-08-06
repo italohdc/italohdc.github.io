@@ -4,15 +4,23 @@ title: About Me
 permalink: /about/
 ---
 
+## Things I've worked on
+
+{% include about-cards.html %}
+
+---
+
 Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
 Participation in **international robotics competitions** (LARC and RoboCup), acting mainly in the development of autonomous robots, microcontroller programming and prototyping circuits.
 
 Experience as a **Scientific Initiation Scholar** in the field of **cooperative robotics**.
 
-{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, Machine Learning, AI...
+{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, Machine Learning, AI.
 
 ---
+
+## Timeline
 
 {% include fa-icon.html id="plane" add-class="fa-about" %} I just travelled the world with my robots, always trying to escape an endless maze, and for that I've earned some trophies...
 
@@ -68,13 +76,3 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 * **5th Place** on RoboCup Mexico
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
-
----
-
-## Some of the projects I've worked {% include fa-icon.html id="briefcase" %}
-
-### Rescue Maze robot (RoboCup)
-
-{% include youtubePlayer.html id="Wu9DYnvc1BU?loop=1&playlist=5eA4DgghYRI,0xHdz2xT8Wo" %}
-
-[- More -](https://italohdc.github.io/posts/maze-solving)
