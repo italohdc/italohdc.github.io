@@ -2,9 +2,10 @@
 layout: post
 title:  "Introdução ao Arduino"
 date:   2017-05-16 07:32:02 +0000
-updated:   2018-09-17 17:30:00 -0300
 lang:   pt_BR
 thumbnail: arduino.jpg
+banner: arduino-closeup.jpg
+banner-credits: Photo by Nicolas Thomas on Unsplash
 ---
 
 Que tal aprender um pouco mais sobre o manuseio e a utilização de um Arduino? Neste pequeno guia você irá aprender sobre como configurar o seu Arduino, algumas funções básicas e como programar um LED para piscar.
