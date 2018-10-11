@@ -861,7 +861,9 @@ footer {
   .banner-small-text {
     background-color: #ddd;
     color: #444;
-    width: fit-content;
+    width: intrinsic;
+    width: -moz-max-content;
+    width: -webkit-max-content;
     margin: auto 0 0 auto;
     text-align: right;
     font-family: $montserrat;
