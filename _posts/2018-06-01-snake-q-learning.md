@@ -3,7 +3,7 @@ layout: post
 title:  "LearnSnake: Teaching an AI to play Snake using Reinforcement Learning (Q-Learning)"
 summary: This is a implementation of an AI fully written in Javascript that learns to play Snake...
 date:   2018-06-06 10:00:00 +0000
-updated:   2018-10-11 10:20:00 -0300
+updated:   2018-10-12 10:20:00 -0300
 lang:   en
 thumbnail: snake.gif
 permalink: snake
@@ -11,7 +11,9 @@ banner: banner-learn-snake.jpg
 banner-credits: Illustration of a Q-Table
 ---
 
-This is a implementation of an Artificial Intelligence fully written in **Javascript** that learns to play Snake using **Reinforcement Learning**.
+This is an implementation of an Artificial Intelligence fully written in **Javascript** that learns to play the game Snake using **Reinforcement Learning**.
+
+The AI learns to play the game during its training process (every time it catches a fruit or dies). Therefore, **the longer you let it train, the better it gets**!
 
 ### Play with it...
 
@@ -28,7 +30,9 @@ This is a implementation of an Artificial Intelligence fully written in **Javasc
 
 - **Action Randomization**: Percentage of time a random action will be executed instead of the desired action
 
-You can check the [**GitHub Repository** {% include brand-icon.html id="github" %}](https://github.com/italohdc/LearnSnake) to see the source code of this project.
+---
+
+You can check the [**GitHub Repository** {% include brand-icon.html id="github" %}](https://github.com/italohdc/LearnSnake) to see the source code of this project. If you like it, [**give it a star**](https://github.com/italohdc/LearnSnake)!
 
 > {% include fa-icon.html id="gamepad" %} If you want to play some snake yourself, you should try clicking the canvas and entering the Konami Code! See what happens...
 
@@ -124,6 +128,10 @@ The Q-Table is stored using a Javascript Object and looks like this:
 
 ---
 
+If you liked this project, [please give it a star on GitHub](https://github.com/italohdc/LearnSnake) to show your appreciation!
+
 ### Interesting Links
 
-- [Q-Learning-Python-Example <small>{% include brand-icon.html id="github" %}</small>](https://github.com/hasanIqbalAnik/q-learning-python-example) (an implementation of Q-Learning for the game "Catch the Ball", which I used to understand the algorithm steps)
+- **[Q-Learning-Python-Example](https://github.com/hasanIqbalAnik/q-learning-python-example) by Hasan Iqbal**: an implementation of Q-Learning for the game "Catch the Ball", which I used to understand the algorithm steps.
+
+- **[IAMDinosaur](https://github.com/ivanseidel/IAMDinosaur) by Ivan Seidel**: Artificial Inteligence that teachs Google's Dinosaur to jump cactus. Not directly related to this project, but an awesome idea!
