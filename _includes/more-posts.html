@@ -1,0 +1,32 @@
+<h2 style="font-variant: small-caps">also read</h2>
+
+{% if page.title == site.posts[0].title %}
+	{% assign prev_post = site.posts[-1] %}
+{% else %}
+	{% assign prev_post = site.posts[0] %}
+{% endif %}
+
+{% if page.title == site.posts[-5].title %}
+	{% assign next_post = site.posts[-1] %}
+{% if page.previous and page.previous.hidden == !true %}
+	{% assign next_post = page.previous %}
+{% elsif page.next and page.next.hidden == !true %}
+	{% assign next_post = page.next %}
+{% else %}
+	{% assign next_post = site.posts[-4] %}
+{% endif %}
+
+<div class="more-posts">
+  <div class="next-post">
+    <a href="{{ prev_post.url }}">
+    	<!-- <div class="cotainer-img"><img src="{{ site.baseurl }}/images/thumbnails/{{ page.next.thumbnail }}"></img></div> -->
+    	<div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ prev_post.thumbnail }}); background-size: cover; background-position: center;"></div>
+	    <div class="more-posts-text">{{ prev_post.title }}</div>
+	  </a>
+  </div>
+
+  <a href="{{ next_post.url }}" class="next-post">
+    	<div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ next_post.thumbnail }}); background-size: cover; background-position: center;"></div>
+	    <div class="more-posts-text">{{ next_post.title }}</div>
+	</a>
+</div>
