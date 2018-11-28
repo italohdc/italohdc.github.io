@@ -890,7 +890,9 @@ footer {
 
 #index-banner {
   background-color: $bannerColor;
-  background-image: url(/images/grain.png);
+  background-image: url(/images/banners/index-banner.jpg);
+  background-size: cover;
+  background-position: center;
   // height: 600px;
   box-shadow: rgba(80, 80, 80, 0.4) 0px 3px 3px;
 
@@ -920,7 +922,6 @@ footer {
     text-align: center;
     font-weight: bold;
     color: #eee;
-    // text-shadow: #666 1px 1px 1px;
   }
 
   .banner-title {
@@ -930,7 +931,7 @@ footer {
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 1px;
-    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 3px;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 4px;
 
     margin-top: 0;
     margin-bottom: 12px;
@@ -940,6 +941,7 @@ footer {
     color: #eee;
     line-height: 22px;
     margin-top: 0;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 3px;
 
     p {
       font-size: 18px;
@@ -952,6 +954,7 @@ footer {
 
   .banner-info2 {
     color: rgba($color: #eee, $alpha: 0.6);
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 3px;
 
     margin-top: 12px;
     margin-bottom: 22px;
