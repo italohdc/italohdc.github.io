@@ -1,3 +1,4 @@
+<div class="hide-on-mobile">
 <h2 style="font-variant: small-caps">also read</h2>
 
 {% if page.title == site.posts[0].title %}
@@ -8,7 +9,7 @@
 
 {% if page.title == site.posts[-5].title %}
 	{% assign next_post = site.posts[-1] %}
-{% if page.previous and page.previous.hidden == !true %}
+{% elsif page.previous and page.previous.hidden == !true %}
 	{% assign next_post = page.previous %}
 {% elsif page.next and page.next.hidden == !true %}
 	{% assign next_post = page.next %}
@@ -29,4 +30,5 @@
     	<div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ next_post.thumbnail }}); background-size: cover; background-position: center;"></div>
 	    <div class="more-posts-text">{{ next_post.title }}</div>
 	</a>
+</div>
 </div>
