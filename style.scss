@@ -142,6 +142,10 @@ table, th, td {
 }
 
 table { 
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
   border-spacing: 5px;
   border-collapse: collapse;
   margin-bottom: 15px;
