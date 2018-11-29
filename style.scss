@@ -278,7 +278,7 @@ small {
 
 .masthead a {
   transition: color 0.15s ease;   
-    &:hover, &:active {
+  &:hover, &:active {
     // color: $gray2;
     color: rgba(255, 255, 255, 0.6);
   }
@@ -373,10 +373,13 @@ nav {
       color: $white;
       box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
       outline:0;
-      // &:hover, &:active {
-      //   background-color: rgba(0, 0, 0, 0.3);
-      //   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-      // }
+
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      
+      &:hover, &:active {
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      }
     }
   }
 
@@ -395,6 +398,13 @@ nav {
       font-size: 10px;
       margin-top: 2px;
     }
+  }
+}
+
+.nav-selected {
+  text-decoration: underline;
+  @include mobile {
+    text-decoration: none;
   }
 }
 
@@ -895,6 +905,7 @@ footer {
   background-position: center;
   // height: 600px;
   box-shadow: rgba(80, 80, 80, 0.4) 0px 3px 3px;
+  font-size: 12px;
 
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
@@ -926,7 +937,7 @@ footer {
 
   .banner-title {
     color: rgba($color: rgb(247, 247, 247), $alpha: 1);
-    font-size: 28px;
+    font-size: 2.2em;
     font-family: $rubik-font;
     font-weight: bold;
     font-variant: small-caps;
@@ -944,10 +955,10 @@ footer {
     text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 3px;
 
     p {
-      font-size: 18px;
+      font-size: 1.5em;
       margin: 10px auto;
       @include mobile {
-        font-size: 14px;
+        font-size: 1.2em;
       }
     }
   }
@@ -960,8 +971,11 @@ footer {
     margin-bottom: 22px;
 
     p {
-      font-size: 14px;
+      font-size: 1.2em;
       margin: 10px auto;
+      @include mobile {
+        font-size: 1em;
+      }
     }
   }
 
@@ -1302,6 +1316,8 @@ footer {
   flex-wrap: nowrap;
 
   margin-bottom: 20px;
+
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 
   @include mobile {
     flex-direction: column;

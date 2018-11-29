@@ -10,5 +10,11 @@ function resizeHeaderOnScroll() {
     }
 }
 
+if (window.location.pathname === '/') {
+	document.getElementById("nav-blog").classList.add("nav-selected");
+} else if (window.location.pathname === '/about/') {
+	document.getElementById("nav-about").classList.add("nav-selected");
+}
+
 window.addEventListener('scroll', resizeHeaderOnScroll);
 document.addEventListener("touchstart", function(){}, true);
