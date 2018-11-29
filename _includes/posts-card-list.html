@@ -1,0 +1,25 @@
+<div class="posts-card-list">
+{% for post in site.posts %}
+  {% if post.hidden == !true  %}
+  <div class="post-container">
+    <article class="posts-card-list-post">
+      <a href="{{ post.url }}">
+        <!-- <div class="cotainer-img"><img src="{{ site.baseurl }}/images/thumbnails/{{ page.next.thumbnail }}"></img></div> -->
+        <div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}); background-size: cover; background-position: center;"></div>
+        <h2 class="posts-card-list-title">{{ post.title }}</h2>
+        <date class="posts-card-list-date">{{ post.date | date: "%B %d, %Y" }}
+          <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
+        </date>
+        <p class="posts-card-list-text">
+          {% if post.summary %}
+          {{ post.summary | strip_html | truncate: 150 }}
+          {% else %}
+          {{ post.excerpt | strip_html | truncate: 150 }}
+          {% endif %}
+        </p>
+      </a>
+    </article>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>

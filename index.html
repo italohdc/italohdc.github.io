@@ -28,52 +28,7 @@ layout: default
 
 <div class="posts content-fadein">
   <h2 style="font-variant: small-caps">read my blog</h2>
-  <!-- <p class="header-sitemap">
-    <a href="https://italohdc.github.io">Italo Lelis</a> &gt; Blog</p> -->
-  {% for post in site.posts %}
-  {% if post.hidden == !true  %}
-  <article>
-    <hr>
-    <!-- {% if post.lang == "pt_BR" %}
-    <span class="tag-lang">PT BR</span>{% endif %} -->
-    <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
-    <div class="post-preview">
-
-      {% if post.thumbnail %}
-      <div class="post-image-preview">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <img src="{{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}">
-          </img>
-        </a>
-      </div>
-      {% endif %}
-
-      <div class="post-text-preview">
-      <h1 class="post-title-preview">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
-      <div class="date">{{ post.date | date: "%B %d, %Y" }}
-        <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>
-      </div>
-
-      <div>
-        <p class="post-summary-preview">
-          {% if post.summary %}
-          {{ post.summary | strip_html | truncate: 150 }}
-          {% else %}
-          {{ post.excerpt | strip_html | truncate: 150 }}
-          {% endif %}
-        </p>
-      </div>
-      </div>
-
-    </div>
-  <!-- </a> -->
-
-    <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-  </article>
-  {% endif %}
-  {% endfor %}
+  {% include posts-card-list.html %}
 </div>
 
 </div>

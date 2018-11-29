@@ -11,3 +11,4 @@ function resizeHeaderOnScroll() {
 }
 
 window.addEventListener('scroll', resizeHeaderOnScroll);
+document.addEventListener("touchstart", function(){}, true);
