@@ -12,7 +12,7 @@ layout: default
         <p>I'm a tech enthusiast who loves to explore new solutions to old problems and who codes for fun!</p>
       </div>
       <div class="banner-info2">
-        <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Engineering Student @ UFMG</p>
+        <p>{% include fa-icon.html id="desktop" add-class="fa-index" %} Full-Stack Developer @ Newatt</p>
         <p>{% include fa-icon.html id="map-pin" add-class="fa-index" %} Belo Horizonte-MG, Brazil</p>
       </div>
       <div class="about-social">{% include svg-icons.html %}</div>
@@ -24,11 +24,16 @@ layout: default
 
 <div id="main" role="main" class="container-main">
 
-{% include twitterTimeline.html %}
+<div class="twitter-widget">
+  <h2 style="font-variant: small-caps">i've worked with...</h2>
+  {% include cloud-box.html %}
+</div>
 
 <div class="posts content-fadein">
   <h2 style="font-variant: small-caps">read my blog</h2>
   {% include posts-card-list.html %}
+  <h2 style="font-variant: small-caps">projects i've worked on</h2>
+  {% include about-cards.html %}
 </div>
 
 </div>

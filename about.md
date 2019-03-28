@@ -4,12 +4,17 @@ title: About Me
 permalink: /about/
 ---
 
-## Things I've worked on
+## Projects I've worked on
 
 {% include about-cards.html %}
 
----
+## Some things I've worked with
 
+{% include cloud-box.html %}
+
+## Summary
+
+Currently a **Full-Stack Developer** at Newatt, working mainly with **Node.js** and **Ionic/Angular**.
 
 Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
@@ -17,19 +22,20 @@ Participation in **international robotics competitions** (LARC and RoboCup), act
 
 Experience as a **Scientific Initiation Scholar** in the field of **cooperative robotics**.
 
-{% include fa-icon.html id="lightbulb" add-class="fa-about" %} Interested in Robotics, Machine Learning, AI.
-
----
 
 ## Timeline
 
-{% include fa-icon.html id="plane" add-class="fa-about" %} I just travelled the world with my robots, always trying to escape an endless maze, and for that I've earned some trophies...
+### 2018
 
+* Translated the game [Crowds](https://ncase.me/crowds/pt), by Nicky Case, to Portuguese
+* Talked about [Reinforcement Learning](https://www.slideshare.net/ItaloLelis1/reinforcement-learning-um-pequeno-panorama-do-aprendizado-por-reforo) on BH-TEC
+* Co-authored a conference paper about [Multi-Robot Coverage Algorithm in VR](http://dx.doi.org/10.20906/CPS/CBA2018-0563)
+* Started working as a Full-Stack Developer at Newatt
 
 ### 2017
 
 * **2nd Place** on AbbVie Hackathon
-* Lecture about IoT (Internet of Things) on BH-TEC
+* Talked about [IoT (Internet of Things)](/posts/palestra-iot-bhtec-2017/) on BH-TEC
 
 {% include image.html file="about-me/2017-iot-talk-bhtec.jpg" float=true description="Lecture about IoT" %}
 
@@ -77,3 +83,12 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 * **5th Place** on RoboCup Mexico
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
+
+
+## Published Papers
+
+### Voronoi Multi-Robot Coverage Control in non-convex environments with Human Interaction in Virtual Reality (2018)
+
+Coelho Figueiredo, Lucas; Lelis de Carvalho, Italo; Cunha de Araújo Pimenta, Luciano.
+
+[doi:10.20906/CPS/CBA2018-0563](http://dx.doi.org/10.20906/CPS/CBA2018-0563)
