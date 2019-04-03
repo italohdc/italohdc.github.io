@@ -14,7 +14,7 @@ permalink: /about/
 
 ## Summary
 
-Currently a **Full-Stack Developer** at Newatt, working mainly with **Node.js** and **Ionic/Angular**.
+Currently a **Software Developer** at Newatt, working mainly with **Node.js** and **Ionic/Angular**.
 
 Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
@@ -30,7 +30,7 @@ Experience as a **Scientific Initiation Scholar** in the field of **cooperative 
 * Translated the game [Crowds](https://ncase.me/crowds/pt), by Nicky Case, to Portuguese
 * Talked about [Reinforcement Learning](https://www.slideshare.net/ItaloLelis1/reinforcement-learning-um-pequeno-panorama-do-aprendizado-por-reforo) on BH-TEC
 * Co-authored a conference paper about [Multi-Robot Coverage Algorithm in VR](http://dx.doi.org/10.20906/CPS/CBA2018-0563)
-* Started working as a Full-Stack Developer at Newatt
+* Started working as a Software Developer at Newatt
 
 ### 2017
 
