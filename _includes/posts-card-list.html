@@ -3,9 +3,11 @@
   {% if post.hidden == !true  %}
   <div class="post-container">
     <article class="posts-card-list-post">
-      <a href="{{ post.url }}">
+      <a href="{% if post.external-post == true  %}{{ post.external-url }}" target="_blank{% else %}{{ post.url }}{% endif %}">
         <!-- <div class="cotainer-img"><img src="{{ site.baseurl }}/images/thumbnails/{{ page.next.thumbnail }}"></img></div> -->
-        <div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}); background-size: cover; background-position: center;"></div>
+        <div class="cotainer-img" style="background-image: url({{ site.baseurl }}/images/thumbnails/{{ post.thumbnail }}); background-size: cover; background-position: center;">
+          {% if post.external-detail %}<span class="post-banner-text">{{ post.external-detail}} {% include fa-icon.html id="external-link-alt" %}</span>{% endif %}
+        </div>
         <h2 class="posts-card-list-title">{{ post.title }}</h2>
         <date class="posts-card-list-date">{{ post.date | date: "%B %d, %Y" }}
           <span> • {% if post.lang == "pt_BR" %}Português{% else %}English{% endif %}</span>

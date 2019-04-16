@@ -260,7 +260,7 @@ small {
   // border-bottom: 1px solid #ddd;
   
   @include mobile {
-    padding: 20px 10px;
+    padding: 10px 10px 12px 10px;
     text-align: center;
   }
   
@@ -369,25 +369,26 @@ nav {
     
     @include mobile {
       margin: 0 0 0 14px;
-      background-color: rgba(0, 0, 0, 0.2);
-      padding: 10px 10px;
-      border-radius: 6px;
+      background-color: rgba($color: #296e8c, $alpha: 0.6);
+      padding: 8px 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(247, 247, 247, 0.6);
       color: $white;
-      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 3px 1px -2px rgba(20,20,20,.4), 0 2px 2px 0 rgba(20,20,20,.28), 0 1px 5px 0 rgba(20,20,20,.24);
       outline:0;
 
       -webkit-tap-highlight-color: rgba(0,0,0,0);
       transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
       
       &:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+        background-color: rgba(20, 20, 20, 0.4);
+        box-shadow: 0 3px 1px -2px rgba(20,20,20,.3), 0 2px 2px 0 rgba(20,20,20,.21), 0 1px 5px 0 rgba(20,20,20,.18);
         transform: scale(1);
 
       }
       &:active {
-        background-color: rgba(0, 0, 0, 0.3);
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+        background-color: rgba(20, 20, 20, 0.4);
+        box-shadow: 0 3px 1px -2px rgba(20,20,20,.3), 0 2px 2px 0 rgba(20,20,20,.21), 0 1px 5px 0 rgba(20,20,20,.18);
         transform: scale(0.94);
       }
     }
@@ -415,6 +416,13 @@ nav {
   text-decoration: underline;
   @include mobile {
     text-decoration: none;
+    background: repeating-linear-gradient(
+      -45deg,
+      rgba($color: #2978A0, $alpha: 0.8),
+      rgba($color: #2978A0, $alpha: 0.8) 10px,
+      rgba($color: #185f7d, $alpha: 0.4) 10px,
+      rgba($color: #185f7d, $alpha: 0.4) 20px
+    );
   }
 }
 
@@ -910,7 +918,7 @@ footer {
 
 #index-banner {
   background-color: $bannerColor;
-  background-image: url(/images/banners/index-banner.jpg);
+  background-image: url(/images/banners/index-banner-portrait.jpg);
   background-size: cover;
   background-position: center;
   // height: 600px;
@@ -1290,12 +1298,13 @@ footer {
 
   .posts-card-list-post {
     display: flex;
+    position: relative;
     flex-direction: column;
     max-width: 100%;
     margin: 15px 15px 25px 15px;
     border-radius: 4px;
 
-    box-shadow: 0px 2px 4px rgba(60, 60, 60, 0.6);
+    box-shadow: 0 3px 1px -2px rgba(20,20,20,.4), 0 2px 2px 0 rgba(20,20,20,.28), 0 1px 5px 0 rgba(20,20,20,.24);
 
     background-image: url(/images/grain.png);
     background-color: rgba(200, 200, 200, 0.3);
@@ -1305,18 +1314,34 @@ footer {
 
     &:hover {
       background-color: rgba(200, 200, 200, 0.5);
-      box-shadow: 0px 4px 4px rgba(60, 60, 60, 0.6);
-      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 3px 1px -2px rgba(20,20,20,.8), 0 2px 2px 0 rgba(20,20,20,.56), 0 1px 5px 0 rgba(20,20,20,.48);
+      transform: translateY(-2px) scale(1.04);
       opacity: 1;
     }
 
     &:active {
       background-color: rgba(200, 200, 200, 0.5);
-      box-shadow: 0px 0px 4px rgba(60, 60, 60, 0.6);
-      transform: translateY(0) scale(1.01);
+      box-shadow: 0 3px 1px -2px rgba(20,20,20,.8), 0 2px 2px 0 rgba(20,20,20,.56), 0 1px 5px 0 rgba(20,20,20,.48);
+      transform: translateY(0) scale(1.02);
       opacity: 1;
     }
 
+  }
+
+  .post-banner-text {
+    position: absolute;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, .8);
+    font-size: 1.5em;
+    text-align: right;
+    top: 10px;
+    right: 10px;
+    padding: 4px;
+
+    .fas {
+      font-size: 0.8em;
+      margin-left: 4px;
+    }
   }
 }
 

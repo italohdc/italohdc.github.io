@@ -30,12 +30,13 @@ Experience as a **Scientific Initiation Scholar** in the field of **cooperative 
 * Translated the game [Crowds](https://ncase.me/crowds/pt), by Nicky Case, to Portuguese
 * Talked about [Reinforcement Learning](https://www.slideshare.net/ItaloLelis1/reinforcement-learning-um-pequeno-panorama-do-aprendizado-por-reforo) on BH-TEC
 * Co-authored a conference paper about [Multi-Robot Coverage Algorithm in VR](http://dx.doi.org/10.20906/CPS/CBA2018-0563)
-* Started working as a Software Developer at Newatt
+* Started working as a **Software Developer** at Newatt
 
 ### 2017
 
 * **2nd Place** on AbbVie Hackathon
 * Talked about [IoT (Internet of Things)](/posts/palestra-iot-bhtec-2017/) on BH-TEC
+* **Scientific Initiation Scholar** in the field of cooperative robotics
 
 {% include image.html file="about-me/2017-iot-talk-bhtec.jpg" float=true description="Lecture about IoT" %}
 
@@ -81,6 +82,7 @@ In the Rescue Maze competition, an autonomous robot was developed in order to tr
 ### 2012
 
 * **5th Place** on RoboCup Mexico
+* **Scientific Initiation Scholar Jr.** in the field of educational robotics
 
 In Mexico, we participated in a competition in which we should develop a robot capable of following a line and avoiding obstacles. To follow the line, the robot read the environment with light sensors and applied a simplified **PID controller** to keep the robot centered in the line. The hardware was developed using the microcontroller **Arduino**.
 
