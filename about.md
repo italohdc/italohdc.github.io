@@ -14,9 +14,9 @@ permalink: /about/
 
 ## Summary
 
-Currently a **Software Developer** at Newatt, working mainly with **Node.js** and **Ionic/Angular**.
+Currently a **Software Developer**, working mainly with **Node.js** and **Vue**.
 
-Undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
+Formerly undergraduate student in **Control and Automation Engineering** at **Federal University of Minas Gerais** ([UFMG {% include fa-icon.html id="university" %}](https://ufmg.br/international-visitors)).
 
 Participation in **international robotics competitions** (LARC and RoboCup), acting mainly in the development of autonomous robots, microcontroller programming and prototyping circuits.
 
