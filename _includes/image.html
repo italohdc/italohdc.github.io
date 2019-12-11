@@ -1,4 +1,11 @@
 <figure class="post-image" {% if include.float %}class="image-right"{% endif %}>
-<img src="{{ site.baseurl }}/images/{{ include.file }}" alt="{{ include.description }}">
+<img
+  src="{{ site.baseurl }}/images/{{ include.file }}"
+  {% if include.alt %}
+    alt="{{ include.alt }}"
+  {% else %}
+    alt="{{ include.description }}"
+  {% endif %}
+>
 <figcaption class="post-caption">{{ include.description }}</figcaption>
 </figure>

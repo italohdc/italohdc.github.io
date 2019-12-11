@@ -725,8 +725,9 @@ nav {
 .post-caption {
   text-align: center;
   font-family: $title-font;
-  font-size: 16px;
-  font-style: italic;
+  font-size: 14px;
+  opacity: 0.6;
+  // font-style: italic;
 }
 
 
@@ -918,9 +919,9 @@ footer {
 
 #index-banner {
   background-color: $bannerColor;
-  background-image: url(/images/banners/index-banner.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(/images/grain.png);
+  // background-size: cover;
+  // background-position: center;
   // height: 600px;
   box-shadow: rgba(80, 80, 80, 0.4) 0px 3px 3px;
   font-size: 12px;
@@ -1450,6 +1451,11 @@ footer {
       padding: 4px;
     }
   }
+}
+
+.gist-data{
+  height: 320px;
+  overflow-y: visible;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

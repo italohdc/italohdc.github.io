@@ -4,7 +4,8 @@
 //
 
 // Colors
-// $blue: #4183C4;
+$masterColor: #2978A0;
+
 $blue: rgba(45, 111, 176, 0.9);
 
 // Grays
@@ -13,12 +14,10 @@ $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $gray2: #bbb;
-// $lightGray: #eee;
 $lightGray:rgba($color: #eee, $alpha: 0.8);
 $lighterGray: #fafafa;
-// $white: #fff;
 $white: rgba($color: #fff, $alpha: 0.9);
-$bannerColor: #5A5A66;//rgb(3, 160, 207);
+$bannerColor: rgba($color: #4A525A, $alpha: 0.8);
 
 // Custom colors
 //$githubColor: #24292e;
@@ -29,7 +28,6 @@ $bannerColor: #5A5A66;//rgb(3, 160, 207);
 //#313B72
 //#58A4B0
 //#2B303A
-$masterColor: #2978A0;
 
 /* Colors
 	#b2cce6 - Light Blue
