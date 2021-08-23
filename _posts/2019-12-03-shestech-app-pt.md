@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como desenvolvi um app para a She's Tech Conference com Vue + Firebase"
+title:  "Desenvolvendo um app para a She's Tech Conference com Vue + Firebase"
 date:   2019-12-03 9:00:00 +0000
 lang:   pt_BR
 thumbnail: shestech-app.gif
